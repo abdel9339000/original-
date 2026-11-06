@@ -16476,5 +16476,37 @@
     "fichier": "travail/candidats/P793.mp4",
     "plus_longue": true,
     "note": "variante Vitalba en 1080p postée sur Facebook le 03/11"
+  },
+  {
+    "url": "https://frigora.fr/products/frigora%E2%84%A2-pocheur-doeufs-micro-ondes",
+    "sources": [
+      "boutique (traces de copie)"
+    ],
+    "compte": "Frigora (frigora.fr)",
+    "date": "2026-09-16",
+    "date_type": "création du produit (Shopify)",
+    "media": "",
+    "duree": null,
+    "titre": "Frigora™ – Pocheur d'Œufs Micro-Ondes, 24,90 €",
+    "note": "Boutique française copiée par Fresito (page clonée, images servies depuis le stockage de Frigora) et par Vitalba (icône « frigora-style », mêmes produits et prix). Vidéo pas encore vérifiée chez Frigora.",
+    "id": "P794",
+    "plateforme": "Boutique",
+    "meme_video": "?"
+  },
+  {
+    "url": "https://frigora.fr/pages/7-raisons-pour-lesquelles-les-gens-presses-abandonnent-leur-poele-pour-ce-gadget-de-cuisine",
+    "sources": [
+      "boutique (traces de copie)"
+    ],
+    "compte": "Frigora (frigora.fr)",
+    "date": "2026-09-15",
+    "date_type": "date affichée sur la page",
+    "media": "",
+    "duree": null,
+    "titre": "7 Raisons Pour Lesquelles les Gens Pressés Abandonnent Leur Poêle Pour Ce Gadget de Cuisine",
+    "note": "Page de vente d'origine, clonée telle quelle par Fresito (même titre français, mêmes images).",
+    "id": "P795",
+    "plateforme": "Boutique",
+    "meme_video": "?"
   }
 ]

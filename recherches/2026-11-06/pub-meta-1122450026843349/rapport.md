@@ -1,21 +1,33 @@
 # Qui a posté cette vidéo en premier ?
 
 **Vidéo envoyée :** `c3351789-1122450026843349_video_0.mp4` · 29,5 s · 720x1280 (HD 720p) · avec son
-**Recherche du :** 6 novembre 2026 (mise à jour : recherche sans Trendtrack, via SerpApi)
+**Recherche du :** 6 novembre 2026 (mise à jour : la boutique d'origine est **Frigora**)
 
 ## En bref
 
-**La première à avoir diffusé cette pub est la page « Vitalba »** (boutique **mivitalba.com**),
-avec la pub Meta n° **1122450026843349**, en diffusion depuis le **27 octobre 2026**. C'est
-exactement ta vidéo, et elle est encore active (15 versions).
-Vitalba l'a reposté sur sa page Facebook le 30/10, puis en a fait des variantes le 03/11.
+**La boutique d'origine est très probablement Frigora (frigora.fr)**, une boutique **française**.
+Elle vend le « Frigora™ – Pocheur d'Œufs Micro-Ondes » à 24,90 € depuis le **16 septembre 2026**,
+avec une page de vente « 7 raisons… » datée du **15 septembre 2026**.
 
-Une autre boutique, **Fresito** (fresito.es), diffuse **la même vidéo de base** depuis le
-**30 octobre**, soit 3 jours après Vitalba, avec d'autres sous-titres et 4 s de plus.
+Les deux boutiques espagnoles qui diffusent ta vidéo **copient Frigora** :
+- **Vitalba** (mivitalba.com) : pub n° 1122450026843349 (celle de ton fichier), depuis le **27/10/2026** ;
+- **Fresito** (fresito.es) : la même vidéo avec d'autres sous-titres, depuis le **30/10/2026**.
 
-**Confiance : moyenne.** Vitalba est bien la plus ancienne de ce qu'on voit, mais la date Meta
-est le début de la pub (la vidéo a pu circuler avant ailleurs), et le passage réel de la fin
-vient d'une autre vidéo qu'on n'a pas retrouvée.
+**Confiance : moyenne à élevée** pour « Frigora est la boutique d'origine » (preuves solides,
+voir plus bas). **Pas encore vérifié :** que Frigora diffuse **cette vidéo** (en français).
+Il faut pour ça chercher ses pubs dans la bibliothèque Meta (1 à 3 recherches SerpApi).
+
+## Les preuves que Frigora est l'original
+
+| Indice | Frigora (FR) | Fresito (ES) | Vitalba (ES) |
+|---|---|---|---|
+| Pocheur d'œufs créé le | **16/09/2026** | 27/10/2026 | 26/10/2026 |
+| Prix | 24,90 € | 24,90 € | 24,90 € |
+| Page de vente | « 7 raisons pour lesquelles les gens pressés abandonnent leur poêle… », datée du **15/09/2026** | **même titre en français**, page clonée avec un outil de clonage (Shopage) | « 7-razones » (traduite) |
+| Images de la page | stockées chez Frigora | **chargées directement depuis le stockage de Frigora** (mêmes fichiers) | – |
+| Autres produits | AirSeal™, « aliments frais 4x plus longtemps », housses alimentaires, séparateur, fouet | **AirSeal™, « alimentos frescos 4 veces más »**, fundas reutilizables | **séparateur à 16,90 €**, fouet |
+| Autre trace | – | – | icône du site nommée « vitalba-favicon-**frigora**-style.png » |
+| Texte des pubs | (original probable en français) | traduction du même texte | traduction du même texte |
 
 ## Ce que j'ai vu dans la vidéo
 
@@ -55,11 +67,16 @@ vient d'une autre vidéo qu'on n'a pas retrouvée.
    entière, puis contre le passage réel de la fin (25,1 à 29,5 s). Vérifié à l'œil sur les planches.
 6. **Miniatures** des pistes qu'on ne pouvait pas télécharger (YouTube, Instagram) : toutes
    montrent d'autres vidéos.
+7. **Fouille des pages de vente** de Vitalba et Fresito (gratuit), à la recherche des restes
+   de la boutique copiée : noms de fichiers, titres, liens vers d'autres boutiques.
+   C'est ce qui a mené à **Frigora**.
 
 ## Pistes trouvées : les versions de cette vidéo
 
 | # | Plateforme | Compte | Date | Lien | Même vidéo | Qualité | Durée |
 |---|---|---|---|---|---|---|---|
+| P795 | Boutique | **Frigora (frigora.fr)** | **2026-09-15** (date de la page) | [frigora.fr/pages/7-raisons-…](https://frigora.fr/pages/7-raisons-pour-lesquelles-les-gens-presses-abandonnent-leur-poele-pour-ce-gadget-de-cuisine) | page de vente d'origine (vidéo pas encore vérifiée) | – | – |
+| P794 | Boutique | **Frigora (frigora.fr)** | **2026-09-16** (création du produit) | [frigora.fr/products/…pocheur-doeufs-micro-ondes](https://frigora.fr/products/frigora%E2%84%A2-pocheur-doeufs-micro-ondes) | produit d'origine, 24,90 € | – | – |
 | P720 | Pub Meta | **Vitalba** | **2026-10-27** (début de la pub) | [facebook.com/ads/library?id=1122450026843349](https://facebook.com/ads/library?id=1122450026843349) | **oui** (c'est la pub du fichier) | 720x1280 (HD 720p) | 29 s |
 | P770 | Pub Meta | Fresito | 2026-10-30 (début de la pub) | [facebook.com/ads/library?id=2098116310867281](https://facebook.com/ads/library?id=2098116310867281) | oui, autres sous-titres ; fin réelle : en partie | 720x1280 (HD 720p) | 34 s (plus longue) |
 | P790 | Pub Meta | Vitalba | 2026-10-30 (début de la pub) | [facebook.com/ads/library?id=3608129886021348](https://facebook.com/ads/library?id=3608129886021348) | oui | 720x1280 (HD 720p) | 29 s |
@@ -75,7 +92,7 @@ vidéo**) : Elmejorr us (pubs dès le 12/08/2026), Onlifeno (dès le 18/08/2026)
 Artoftop store, Tusti, Benefiyou. Le passage réel de la fin n'apparaît chez aucun d'eux.
 
 <details>
-<summary>Tableau complet des pistes vérifiées (64 lignes)</summary>
+<summary>Tableau complet des pistes vérifiées</summary>
 
 | # | Plateforme | Compte | Date | Lien | Même vidéo | Qualité | Durée |
 |---|---|---|---|---|---|---|---|
@@ -110,6 +127,8 @@ Artoftop store, Tusti, Benefiyou. Le passage réel de la fin n'apparaît chez au
 | P774 | Pub Meta | Onlifeno | 2026-09-09 (début de la pub) | [facebook.com/ads/library?id=2014737265839311](https://facebook.com/ads/library?id=2014737265839311) | non | 720x1280 (HD 720p) | 26 s |
 | P482 | TikTok | @dbdnzruucmxvd | 2026-09-10 | [tiktok.com/@dbdnzruucmxvd/video/7683846053…](https://tiktok.com/@dbdnzruucmxvd/video/7683846053568728353) | non | 576x1024 (SD) | 15 s |
 | P346 | TikTok | @naturefitness2 | 2026-09-13 (calculée) | [tiktok.com/@naturefitness2/photo/768494104…](https://tiktok.com/@naturefitness2/photo/7684941048128310560) | non | ? | ? |
+| P795 | Boutique | Frigora (frigora.fr) | 2026-09-15 | [frigora.fr/pages/7-raisons-pour-lesquelles…](https://frigora.fr/pages/7-raisons-pour-lesquelles-les-gens-presses-abandonnent-leur-poele-pour-ce-gadget-de-cuisine) | ? (pas pu vérifier) | ? | ? |
+| P794 | Boutique | Frigora (frigora.fr) | 2026-09-16 | [frigora.fr/products/frigora%E2%84%A2-poche…](https://frigora.fr/products/frigora%E2%84%A2-pocheur-doeufs-micro-ondes) | ? (pas pu vérifier) | ? | ? |
 | P611 | TikTok | @one.people222 | 2026-09-18 | [tiktok.com/@one.people222/video/7686875677…](https://tiktok.com/@one.people222/video/7686875677332638998) | non | 1080x1638 (HD 1080p+) | 34 s |
 | P194 | YouTube | @rainbow-z2y | 2026-09-20 | [youtube.com/watch?v=xJm2YypaYUw](https://youtube.com/watch?v=xJm2YypaYUw) | non | 720x1280 (HD 720p) | 39 s |
 | P198 | YouTube | @LuweallChannel | 2026-09-20 | [youtube.com/watch?v=TMc-Dm1p7tM](https://youtube.com/watch?v=TMc-Dm1p7tM) | non | 496x864 (SD) | 15 s |
@@ -150,42 +169,30 @@ _729 autre(s) piste(s) non vérifiée(s) (ressemblances visuelles) : voir pistes
 
 ## L'original le plus probable
 
-**Vitalba**, pub Meta n° 1122450026843349, lancée le **27 octobre 2026**
-(<https://www.facebook.com/ads/library/?id=1122450026843349>), page Facebook
-<https://www.facebook.com/61595025822615/>, boutique **mivitalba.com**.
+**Frigora**, boutique française : <https://frigora.fr>. Produit créé le **16/09/2026**, page de
+vente datée du **15/09/2026**.
 
-Pourquoi :
-- c'est **la date la plus ancienne** trouvée pour cette vidéo (Fresito : 3 jours après) ;
-- c'est **la même vidéo, image pour image** (distance 0 sur 64) ;
-- Vitalba en a fait **ses propres variantes** (nouvelle accroche, carton de fin à son nom).
-  C'est le comportement de celui qui a monté la pub, pas d'un copieur.
+- **Vitalba** n'est **pas** l'original : c'est la plus ancienne **pub Meta en espagnol** qu'on a
+  trouvée pour cette vidéo (27/10), mais sa boutique copie Frigora (produits, prix, style).
+- **Fresito** est un **clone direct** de Frigora : sa page de vente est la page de Frigora, avec
+  son titre français et ses images chargées chez Frigora.
+- La vidéo elle-même (scènes IA + passage réel à l'évier) a sans doute été montée pour Frigora,
+  puis reprise et sous-titrée en espagnol par les copieurs. **C'est à vérifier** dans les pubs Meta
+  de Frigora.
+- Le **passage réel de la fin** (cuiseur beige à l'évier, « 12 », texte flouté) vient d'une vidéo
+  encore plus ancienne qu'on n'a pas retrouvée (peut-être Douyin ou une fiche AliExpress).
 
-**Version de meilleure qualité :** la variante Facebook de Vitalba du 03/11 (P793) est en
-**1080p**, mais elle commence par une autre accroche. Pour la vidéo exacte, la meilleure
-version est en 720p (P720, P790, P792).
+**Confiance : moyenne à élevée** pour la boutique ; **à confirmer** pour la vidéo.
 
-**Version la plus longue :** celle de **Fresito** (34 s, +4 s), avec d'autres sous-titres.
-Fresito et Vitalba utilisent aussi le même modèle de page de vente (« 7 razones » /
-« 7 raisons »). Ils ont peut-être la **même source** (un fournisseur ou un monteur de pubs),
-ou Fresito a copié Vitalba. On ne peut pas trancher.
-
-**Confiance : moyenne**, parce que :
-- la date Meta est le **début de diffusion de la pub** : la vidéo a pu être postée avant,
-  ailleurs (TikTok, Instagram…) ;
-- on n'a vu que les **15 pubs les plus récentes** de Vitalba sur 58. Une version plus
-  ancienne chez Vitalba ne changerait pas le compte, mais avancerait la date ;
-- le **passage réel de la fin** (cuiseur beige à l'évier, « 12 », texte flouté) vient d'une
-  vidéo plus ancienne qu'on n'a pas retrouvée (peut-être Douyin ou une fiche AliExpress) ;
-
-**Pour aller plus loin (à me demander, avec ton « ok ») :**
-- voir les **43 pubs plus anciennes de Vitalba** : 2 à 3 recherches SerpApi ;
-- voir toutes les pubs de **Fresito** : 1 à 2 recherches.
+**Prochaine étape proposée (avec ton « ok ») :** chercher les pubs de Frigora dans la
+bibliothèque Meta (« Frigora », « pocheur œufs micro-ondes » en français), puis comparer leurs
+vidéos à la tienne : 2 à 3 recherches SerpApi.
 
 ## Ce que la recherche a consommé
 
 - **SerpApi : 18 recherches** en tout (12 pour les images, 4 dans la bibliothèque Meta,
   2 pour les vidéos courtes). Il en reste **232** sur 250 ce mois-ci.
-- **Trendtrack : rien** (pas de crédit, pas utilisé).
+- La fouille des boutiques n'a rien coûté. **Trendtrack : rien** (pas de crédit).
 
 ## Limites à garder en tête
 
