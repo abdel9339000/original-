@@ -40,7 +40,10 @@ def lire(url: str) -> tuple[dict | None, str]:
     if r.returncode == 0 and r.stdout.strip():
         return json.loads(r.stdout.splitlines()[0]), ""
     msg = (r.stderr.strip().splitlines() or ["?"])[-1]
-    for motif, court in (("login", "connexion requise"), ("log in", "connexion requise"),
+    for motif, court in (("IP address is blocked", "TikTok bloque ce serveur"),
+                         ("not a bot", "YouTube bloque ce serveur (anti-robot)"),
+                         ("Client challenge", "Facebook bloque ce serveur (anti-robot)"),
+                         ("login", "connexion requise"), ("log in", "connexion requise"),
                          ("cookies", "connexion requise"), ("private", "post privé"),
                          ("not available", "indisponible ou supprimé"), ("removed", "supprimé"),
                          ("Unsupported URL", "pas une vidéo"), ("No video", "pas une vidéo"),

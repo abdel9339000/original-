@@ -53,6 +53,8 @@ def ligne(p):
     meme = OUI_NON.get(p.get("meme_video"), "non vérifié")
     if p.get("miroir"):
         meme += " (miroir)"
+    if p.get("passage_compare") and p.get("meme_video") in ("oui", "partiel"):
+        meme += f" (passage {p['passage_compare']})"
     if p.get("plus_longue"):
         duree += " (plus longue)"
     if p.get("erreur_lecture") and not p.get("meme_video"):

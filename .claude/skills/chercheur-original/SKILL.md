@@ -178,6 +178,15 @@ publication, mets `--type-date "publication (Trendtrack)"`.
    images en plus, c'est peut-être **la version complète**. Regarde
    `$D/travail/comparaison_PXX.jpg` pour vérifier à l'œil (sous-titres ajoutés, recadrage, miroir).
    Si tu as déjà le fichier : `--ids P05 --fichier chemin/video.mp4`.
+3. **Si la pub est un montage** (plusieurs vidéos collées, ou une partie IA plus un vrai
+   passage), une source ne contient qu'un morceau. Comparée à la pub entière, elle sera
+   jugée « non ». Compare alors **chaque passage** à part :
+   ```bash
+   python3 scripts/comparer_videos.py $D --ids P03,P07 --passage 25.1-29.5
+   ```
+   (les changements de plan affichés à l'étape b donnent les bornes).
+4. Si une piste ne se télécharge pas, regarde au moins sa **miniature** (lien `thumbnail`
+   ou `original_image` dans `$D/travail/serpapi/*.json`) et compare-la à l'œil.
 
 ## g) Classer les pistes
 
@@ -254,7 +263,7 @@ Même si je ne demande rien, termine en rappelant :
 
 | Problème | Que faire |
 |---|---|
-| yt-dlp « connexion requise » / 403 sur Instagram ou Facebook | Normal depuis un serveur. Garde la date calculée à partir de l'identifiant si elle existe, sinon passe par Trendtrack (Media URL) ou demande-moi la vidéo avec le « + ». |
+| yt-dlp « connexion requise », « bloque ce serveur » ou 403 (Instagram, YouTube, la bibliothèque pub Meta, certains TikTok) | Normal depuis un serveur. Ne cherche pas à contourner ces protections anti-robot. Garde la date calculée à partir de l'identifiant si elle existe, regarde la miniature, sinon passe par Trendtrack (Media URL) ou demande-moi la vidéo avec le « + ». Les posts Facebook publics passent souvent. |
 | Aucun résultat SerpApi | Essaie d'autres images (plan sans texte, produit en gros plan). Annonce le nouveau coût et attends « ok ». |
 | Trendtrack à 0 crédit | Dis-le, fais sans, et note-le dans les limites du rapport. |
 | `comparer_videos.py` dit « non » alors que ça se ressemble | Regarde la planche `comparaison_PXX.jpg`. Effet miroir, gros recadrage ou montage différent : écris « en partie » à la main et explique. |

@@ -5,6 +5,7 @@ que c'est bien la même vidéo que celle envoyée.
 Usage :
   python3 scripts/comparer_videos.py DOSSIER --ids P03,P07
   python3 scripts/comparer_videos.py DOSSIER --ids P05 --fichier /chemin/video.mp4   # fichier déjà là
+  python3 scripts/comparer_videos.py DOSSIER --ids P03 --passage 25.1-29.5           # un passage seulement
 
 Méthode : 2 images par seconde dans chaque vidéo, empreinte perceptuelle (pHash)
 de l'image entière, du centre et du haut (pour résister aux sous-titres ajoutés
@@ -34,9 +35,10 @@ FPS = 2
 SEUIL = 10
 
 
-def images(video: Path, dossier_tmp: Path):
+def images(video: Path, dossier_tmp: Path, debut: float = 0.0, fin: float | None = None):
     dossier_tmp.mkdir(parents=True, exist_ok=True)
-    subprocess.run(["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", "-i", str(video),
+    coupe = ["-ss", f"{debut:.2f}"] + (["-to", f"{fin:.2f}"] if fin else [])
+    subprocess.run(["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", *coupe, "-i", str(video),
                     "-vf", f"fps={FPS},scale=320:-2", "-q:v", "4", str(dossier_tmp / "f_%05d.jpg")], check=True)
     return sorted(dossier_tmp.glob("f_*.jpg"))
 
@@ -85,7 +87,7 @@ def telecharger(p: dict, dest_dir: Path) -> Path | None:
     return None
 
 
-def planche(ref_imgs, cand_imgs, paires, sortie: Path, titre: str):
+def planche(ref_imgs, cand_imgs, paires, sortie: Path, titre: str, debut: float = 0.0):
     choix = [paires[int(i * (len(paires) - 1) / 2)] for i in range(3)] if len(paires) >= 3 else paires
     if not choix:
         return
@@ -98,7 +100,7 @@ def planche(ref_imgs, cand_imgs, paires, sortie: Path, titre: str):
         bloc = Image.new("RGB", (a.width + b.width + 10, h + 24), "white")
         bloc.paste(a, (0, 24))
         bloc.paste(b, (a.width + 10, 24))
-        ImageDraw.Draw(bloc).text((4, 6), f"envoyée {i / FPS:.1f}s | piste {j / FPS:.1f}s | distance {d}",
+        ImageDraw.Draw(bloc).text((4, 6), f"envoyée {debut + i / FPS:.1f}s | piste {j / FPS:.1f}s | distance {d}",
                                   fill="black")
         morceaux.append(bloc)
     W = sum(m.width for m in morceaux) + 10 * (len(morceaux) - 1)
@@ -116,7 +118,15 @@ def main():
     ap.add_argument("dossier")
     ap.add_argument("--ids", required=True)
     ap.add_argument("--fichier", help="vidéo déjà téléchargée (une seule piste dans --ids)")
+    ap.add_argument("--passage", help="ne comparer qu'un passage de la vidéo envoyée, ex. 25.1-29.5 "
+                                      "(utile quand la pub est un montage de plusieurs vidéos)")
     a = ap.parse_args()
+    debut, fin = 0.0, None
+    if a.passage:
+        try:
+            debut, fin = (float(x) for x in a.passage.split("-"))
+        except ValueError:
+            erreur("--passage s'écrit DEBUT-FIN en secondes, ex. 25.1-29.5")
 
     dossier = dossier_recherche(a.dossier)
     travail = dossier / "travail"
@@ -129,7 +139,7 @@ def main():
     info_ref = ffprobe(ref)
     tmp = Path(tempfile.mkdtemp(dir=travail))
     try:
-        ref_imgs = images(ref, tmp / "ref")
+        ref_imgs = images(ref, tmp / "ref", debut, fin)
         ref_h, ref_ok = empreintes(ref_imgs)
         if ref_ok.sum() == 0:
             erreur("la vidéo envoyée n'a que des écrans unis ?")
@@ -167,7 +177,7 @@ def main():
             mediane = int(np.median(meilleur_d[ref_ok]))
             en_plus = 1 - ((D.min(axis=0) <= SEUIL) & cand_ok).sum() / max(1, cand_ok.sum())
             paires = [(i, int(meilleur_j[i]), int(meilleur_d[i])) for i in np.where(trouve)[0]]
-            decalage = float(np.median([(j - i) / FPS for i, j, _ in paires])) if paires else 0.0
+            decalage = float(np.median([(j - i) / FPS - debut for i, j, _ in paires])) if paires else 0.0
 
             verdict = "oui" if couverture >= .6 else "partiel" if couverture >= .3 else "non"
             p.update({
@@ -175,6 +185,7 @@ def main():
                 "miroir": bool(miroir and verdict != "non"),
                 "distance_mediane": mediane,
                 "couverture": round(float(couverture), 2),
+                "passage_compare": f"{debut:g}-{fin:g} s" if a.passage else "",
                 "contenu_en_plus": round(float(en_plus), 2),
                 "decalage_s": round(decalage, 1),
                 "duree": info.get("duree") or p.get("duree"),
@@ -186,13 +197,16 @@ def main():
             if paires:
                 planche(ref_imgs, cand_imgs, paires, travail / f"comparaison_{pid}.jpg",
                         f"{pid} {p.get('plateforme')} {p.get('compte') or ''} : même vidéo = {verdict} "
-                        f"({couverture:.0%})")
+                        f"({couverture:.0%})", debut)
             plus = ""
-            if verdict != "non" and (info.get("duree") or 0) > info_ref["duree"] + 1 and en_plus > .15:
-                plus = f" ; version PLUS LONGUE (+{info['duree'] - info_ref['duree']:.0f} s)"
+            duree_ref = (fin or info_ref["duree"]) - debut
+            if verdict != "non" and (info.get("duree") or 0) > duree_ref + 1 and en_plus > .15:
+                plus = f" ; version PLUS LONGUE (+{info['duree'] - duree_ref:.0f} s)"
                 p["plus_longue"] = True
             if p["miroir"]:
                 plus += " ; image RETOURNÉE (miroir) par rapport à la vidéo envoyée"
+            if a.passage:
+                plus += f" [comparé au passage {debut:g}-{fin:g} s]"
             dire(f"  {pid} {p.get('plateforme')} {p.get('compte') or ''} : même vidéo = {verdict} "
                  f"(couverture {couverture:.0%}, distance {mediane}/64, décalage {decalage:+.1f} s) ; {p['qualite']}, "
                  f"{info.get('duree')} s, {info.get('debit_kbps')} kb/s{plus}")
