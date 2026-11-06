@@ -75,5 +75,5 @@ if cle:
 
 print()
 print("Tout est prêt." if ok_total else "Il manque quelque chose (voir les lignes KO).")
-print("Rappel : les crédits Trendtrack se vérifient avec l'outil Trendtrack « check_credits ».")
+print("Trendtrack n'est pas utilisé (pas de crédit) : pubs Meta et vidéos courtes passent par SerpApi.")
 sys.exit(0 if ok_total else 1)

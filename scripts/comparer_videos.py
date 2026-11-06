@@ -74,7 +74,8 @@ def telecharger(p: dict, dest_dir: Path) -> Path | None:
     dest_dir.mkdir(parents=True, exist_ok=True)
     for ancien in dest_dir.glob(f"{p['id']}.*"):
         ancien.unlink()
-    for url in [u for u in (p.get("page") or p["url"], p.get("media")) if u]:
+    # Lien direct de la vidéo d'abord (pub Meta, Trendtrack) : la page elle-même est souvent bloquée.
+    for url in [u for u in (p.get("media"), p.get("page") or p["url"]) if u]:
         try:
             r = subprocess.run(["yt-dlp", "--no-playlist", "--no-warnings", "-f", "bv*+ba/b", "-S", "res,br",
                                 "--merge-output-format", "mp4", "-o", str(dest_dir / f"{p['id']}.%(ext)s"), url],

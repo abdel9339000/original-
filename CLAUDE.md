@@ -22,20 +22,23 @@ La méthode complète est dans la skill `chercheur-original`
    N'écris jamais `echo $SERPAPI_KEY` ni un `curl` avec `api_key=` en clair.
    Pour savoir si elle est là, lance `python3 scripts/verifier_installation.py`.
 2. **Tu ne publies rien.** Pas de post, de commentaire, de like, de message ni de partage
-   sur aucune plateforme. Pas de lien de partage Trendtrack, pas de modification de tableau
-   (board) Trendtrack, de boutique Shopify ou de Google Sheet, pas de pull request.
+   sur aucune plateforme. Pas de lien de partage, pas de modification de tableau (board)
+   Trendtrack, de boutique Shopify ou de Google Sheet, pas de pull request.
    La seule exception est prévue par la méthode : pousser les images clés et le rapport dans
    **ce dépôt**. Le dépôt est **public** : préviens-moi que ces images sont visibles par tous.
 3. **Rien ne se consomme sans mon « ok ».** Avant de lancer une recherche, annonce ce qu'elle
    va consommer, puis attends que je réponde « ok » :
-   - **SerpApi** : le nombre de recherches (1 par image et par moteur), et combien il en
-     reste sur les **250 gratuites par mois** (`recherche_inversee.py` sans `--ok` te le donne) ;
-   - **Trendtrack** : le nombre de crédits estimé, et combien il en reste (outil `check_credits`).
+   - **SerpApi** : le nombre de recherches (images, pubs Meta, vidéos courtes), et combien il
+     en reste sur les **250 gratuites par mois**. Chaque script lancé sans `--ok` te donne
+     le coût sans rien consommer.
    Mon « ok » vaut pour ce que tu as annoncé, pas plus. S'il faut aller plus loin, redemande.
+   **Trendtrack : je n'ai pas de crédit, tu fais sans.** Tu ne l'utilises que si je te dis
+   qu'il en a de nouveau. Les pubs Meta et les vidéos courtes passent par SerpApi.
    Ce qui est gratuit (ffmpeg, yt-dlp, imagehash, git) se fait sans demander.
 4. **Tu dis la vérité sur les limites**, à chaque rapport :
-   - la date Trendtrack est la **première fois que Trendtrack a vu la pub**, pas forcément
-     la date où elle a été publiée ;
+   - la date de début d'une pub Meta est le **début de diffusion de cette pub** : la vidéo a
+     pu être postée avant, ailleurs ; et la date Trendtrack (si un jour on l'utilise) est la
+     **première fois que Trendtrack a vu la pub**, pas forcément la date où elle a été publiée ;
    - les **posts supprimés** et **Douyin** (le TikTok chinois) restent invisibles pour nous ;
    - « même vidéo » repose sur une comparaison d'images automatique : dis-le si c'est « en partie ».
 

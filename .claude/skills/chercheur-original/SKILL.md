@@ -1,6 +1,6 @@
 ---
 name: chercheur-original
-description: Retrouver la version originale d'une vidéo (souvent une pub) et le premier compte qui l'a postée. Images clés avec ffmpeg, recherche d'image inversée (Google Lens et Yandex via SerpApi), Trendtrack (pubs Meta, scan, bibliothèque TikTok, produit par image), vérification avec yt-dlp et imagehash, rapport en français poussé dans le dépôt. Utiliser dès que l'utilisateur envoie une vidéo (avec le « + ») ou un lien et demande qui l'a postée en premier, où est l'original, ou d'où vient cette pub.
+description: Retrouver la version originale d'une vidéo (souvent une pub) et le premier compte qui l'a postée. Images clés avec ffmpeg, recherche d'image inversée (Google Lens et Yandex), bibliothèque publicitaire Meta et vidéos courtes Google, le tout via SerpApi, vérification avec yt-dlp et imagehash, rapport en français poussé dans le dépôt. Utiliser dès que l'utilisateur envoie une vidéo (avec le « + ») ou un lien et demande qui l'a postée en premier, où est l'original, ou d'où vient cette pub.
 ---
 
 # Chercheur d'original : la méthode
@@ -21,7 +21,7 @@ python3 scripts/verifier_installation.py
 
 Il vérifie la clé (présente ou non, **jamais affichée**), yt-dlp, ffmpeg, imagehash, les sites
 (tiktok, instagram, facebook, serpapi, raw.githubusercontent) et les recherches SerpApi
-restantes. Vérifie aussi les crédits Trendtrack avec l'outil `check_credits`.
+restantes. (Trendtrack n'est pas utilisé : plus de crédit.)
 Si quelque chose manque, dis-le simplement et propose la solution.
 
 ## a) Récupérer la vidéo (gratuit)
@@ -43,9 +43,10 @@ la durée et la qualité.
 
 **Regarde le nom du fichier d'origine**, c'est souvent un indice :
 - `1234567890123456_video_0.mp4` : vidéo téléchargée depuis la **bibliothèque publicitaire
-  Meta**. Le nombre est l'**identifiant de la pub** : donne-le à `scan_ad` (étape e).
-  Lien : `https://www.facebook.com/ads/library/?id=<nombre>`. yt-dlp est en général
-  bloqué par Facebook (erreur 403, un contrôle anti-robot) : passe par Trendtrack.
+  Meta**. Le nombre est l'**identifiant de la pub** : utilise-le avec
+  `recherche_meta.py --chercher-id <nombre>` (étape e).
+  Lien : `https://www.facebook.com/ads/library/?id=<nombre>`. yt-dlp est bloqué par
+  Facebook sur cette page (erreur 403, un contrôle anti-robot) : passe par `recherche_meta.py`.
 - `7xxxxxxxxxxxxxxxxxx.mp4` (19 chiffres) : sûrement un identifiant **TikTok**. La date se
   calcule à partir de ce numéro (voir `date_depuis_identifiant` dans `scripts/commun.py`).
 - `snaptik_…`, `ssstik_…`, `SnapTik…` : téléchargée depuis TikTok par un site de téléchargement.
@@ -95,25 +96,30 @@ Préviens-moi que ces images sont maintenant **publiques**.
 
 ## Avant la suite : annoncer le budget et attendre « ok »
 
-1. Calcule le coût SerpApi sans rien lancer :
+Tout ce qui suit passe par **SerpApi** (250 recherches gratuites par mois). **Trendtrack
+n'est pas utilisé** : il n'a plus de crédit. S'il en a un jour (vérifie avec `check_credits`),
+il reste un bonus facultatif (voir tout en bas).
+
+1. Prépare les recherches et calcule leur coût **sans rien lancer** (chaque script sans
+   `--ok` affiche le coût et ce qu'il reste) :
    ```bash
-   python3 scripts/recherche_inversee.py $D --exact 1
+   python3 scripts/recherche_inversee.py $D --exact 1                       # d) images
+   python3 scripts/recherche_meta.py $D --mots "<produit>" --langues es     # e1) pubs Meta
+   python3 scripts/recherche_texte.py $D --phrase "<texte vu à l'écran>"    # e2) vidéos courtes
    ```
-   (1 recherche par image et par moteur, +1 par image en « correspondances exactes » Lens).
-2. Vérifie les crédits Trendtrack (`check_credits`) et estime le coût :
-   - `search_ads` : environ 1 crédit par pub renvoyée (`limit` 10 à 20) ;
-   - `scan_ad` : quelques crédits par scan ;
-   - `search_tiktok_library` : **1 crédit par résultat** (`limit` 10, deux fois : pubs et vidéos normales) ;
-   - `search_products_by_image` : environ 1 crédit par résultat (`limit` 10).
-   Note le solde **avant** et **après** pour donner le vrai coût dans le rapport.
-3. Annonce, puis **attends « ok »**, par exemple :
-   > Pour chercher l'original, je vais utiliser :
-   > - SerpApi : 7 recherches (il t'en reste 250 sur 250 ce mois-ci)
-   > - Trendtrack : environ 60 crédits (il t'en reste 4 200)
+   Coûts : 1 recherche par image et par moteur (+1 par image en « correspondances exactes »),
+   1 par page de 30 pubs Meta, 1 par phrase.
+2. Annonce le total, puis **attends « ok »**, par exemple :
+   > Pour chercher l'original, je vais utiliser **SerpApi : 13 recherches** (il t'en reste
+   > 238 sur 250 ce mois-ci) :
+   > - 11 pour la recherche d'image (Google Lens et Yandex sur 5 images)
+   > - 1 dans la bibliothèque des pubs Meta
+   > - 1 sur le texte de l'accroche dans les vidéos courtes
    > Je lance ? Réponds « ok ».
 
-   Si Trendtrack est à **0 crédit**, dis-le et propose de faire sans (SerpApi seul), ou
-   d'attendre le renouvellement.
+   Sois raisonnable : en général **15 recherches au plus** pour une vidéo. S'il faut aller
+   plus loin (page suivante, toutes les pubs d'un annonceur…), annonce le supplément et
+   redemande « ok ».
 
 ## d) Recherche d'image inversée SerpApi : Google Lens et Yandex Images (payant)
 
@@ -125,38 +131,39 @@ Pour chaque image : Google Lens (résultats « visuels ») et Yandex Images (pag
 apparaît). `--exact 1` ajoute les « correspondances exactes » Lens sur la première image.
 Les résultats bruts sont dans `$D/travail/serpapi/` (clé masquée) et chaque lien devient une
 piste dans `$D/pistes.json` (avec `nb_images` : sur combien d'images on l'a retrouvé ; plus
-c'est haut, plus c'est sûr).
+c'est haut, plus c'est sûr). Les pistes vues sur plusieurs images sont souvent des **pages de
+vente** : elles disent **qui vend le produit**.
 
-## e) Trendtrack (payant)
+## e) Pubs Meta et vidéos courtes, avec SerpApi (payant)
 
-Utilise les mots trouvés à l'étape b (texte à l'écran, marque, site, produit).
+1. **Bibliothèque publicitaire Meta** (Facebook, Instagram, Messenger…), pubs **actives et
+   inactives**, vidéos seulement :
+   ```bash
+   python3 scripts/recherche_meta.py $D --mots "huevo microondas" --langues es --ok
+   python3 scripts/recherche_meta.py $D --mots "<marque ou site vu>" --ok
+   ```
+   Les mots sont cherchés dans le **texte de la pub** (pas dans la vidéo) : essaie le nom du
+   produit dans la langue de la pub, la marque, le site. `--phrase-exacte` pour une phrase.
+   Chaque pub donne : **la page qui la diffuse**, la **date de début** (et de fin) selon Meta,
+   active ou non, le **nombre de versions**, et le **lien de la vidéo** (`media`).
+   - Si le nom du fichier contenait un identifiant de pub (étape a), ajoute
+     `--chercher-id <nombre>` : le script signale la pub si elle est dans les résultats.
+   - Quand tu as trouvé l'annonceur, ses autres pubs (pour trouver la version la plus ancienne) :
+     `python3 scripts/recherche_meta.py $D --page-id <page_id> --tri recent --ok`
+   - La page n'est pas lisible depuis ce serveur, mais le lien `media` se télécharge :
+     `comparer_videos.py` s'en sert tout seul. Ces liens expirent après quelques jours.
+2. **Vidéos courtes Google** (TikTok, Reels, Shorts, Facebook), sur le **texte vu à l'écran** :
+   ```bash
+   python3 scripts/recherche_texte.py $D --phrase "quien inventó esto se merece un aumento" --ok
+   ```
+   Une phrase rare (l'accroche) marche mieux que des mots courants. `--moteur videos` pour
+   l'onglet Vidéos de Google.
 
-1. **Pubs Meta, de la plus ancienne à la plus récente, actives et inactives** :
-   `search_ads` avec `query` = texte ou marque, `status: "all"`, `media_type: "video"`,
-   `sort_by: "createdAt"`, `order: "asc"`, `limit: 10` à `20`.
-   Si un site est visible : refais avec `search_in: "domain"` (ou `"website"`) et le domaine.
-   Garde les pubs qui ressemblent à ta vidéo (miniature, texte, durée).
-2. **Scan d'une pub** (copies et durée de diffusion) : `scan_ad` sur la pub la plus ancienne
-   (`collation_id` si `search_ads` en donne un, sinon `ad_identifier` = identifiant ou lien
-   de la pub). Si le nom du fichier contenait un identifiant Meta (étape a), scanne-le
-   directement : `scan_ad` avec `ad_identifier: "<nombre>"`.
-   Note : nombre de copies, pages qui la diffusent, première et dernière date vues.
-3. **Bibliothèque TikTok, pubs et vidéos normales** : `search_tiktok_library` avec `query`
-   (ou `handle` si tu as vu un @pseudo), `type: "ad"` puis `type: "organic"`,
-   `sort_by: "newest"`, `order: "asc"` (les plus anciennes d'abord), `limit: 10`.
-4. **Qui vend le produit** : `search_products_by_image` avec `image_url` = le lien raw de
-   l'image où le produit se voit le mieux, `limit: 10`.
-
-Pour chaque résultat intéressant, ajoute une piste (le « Media URL » sert à télécharger la
-vidéo si la page est bloquée) :
+Tu peux aussi ajouter une piste à la main (filigrane, lien que je te donne…) :
 ```bash
-python3 scripts/ajouter_piste.py $D --url "<lien de la pub ou du post>" --source trendtrack_meta \
-  --compte "<page ou @pseudo>" --date AAAA-MM-JJ --type-date "première vue Trendtrack" \
-  --media "<Media URL>" --duree <secondes> --note "<copies, durée de diffusion…>"
+python3 scripts/ajouter_piste.py $D --url "<lien>" --source filigrane --compte "<@pseudo>" \
+  [--date AAAA-MM-JJ --type-date "publication"] [--media "<lien direct de la vidéo>"] [--note "..."]
 ```
-Sources possibles : `trendtrack_meta`, `trendtrack_scan`, `trendtrack_tiktok`,
-`trendtrack_produit`, `filigrane`. Pour une vidéo TikTok normale avec une vraie date de
-publication, mets `--type-date "publication (Trendtrack)"`.
 
 ## f) Lire chaque lien puis vérifier les meilleures pistes (gratuit)
 
@@ -168,7 +175,7 @@ publication, mets `--type-date "publication (Trendtrack)"`.
    C'est `yt-dlp --dump-json`. Si c'est bloqué (Instagram, Facebook), la date est calculée
    à partir de l'identifiant du post quand c'est possible (TikTok, Instagram, X).
 2. **Télécharger seulement les meilleures pistes** (3 à 8 : les plus anciennes, celles vues
-   sur plusieurs images, les correspondances exactes, les pubs Trendtrack) et **confirmer
+   sur plusieurs images, les correspondances exactes, les pubs Meta) et **confirmer
    avec imagehash** :
    ```bash
    python3 scripts/comparer_videos.py $D --ids P03,P07,P12
@@ -199,7 +206,7 @@ qualité**, puis **sans bandes noires ni recadrage**. Corrige à la main ce que 
 voit pas : **sous-titres ajoutés**, logo d'un revendeur, effet miroir, accéléré.
 Le script propose une **confiance** :
 - **élevée** : même vidéo confirmée, vraie date de publication, rien de plus ancien en attente ;
-- **moyenne** : un doute (date vue par Trendtrack, piste bloquée, autre version le même jour) ;
+- **moyenne** : un doute (date incertaine, piste bloquée, autre version le même jour) ;
 - **faible** : rien de confirmé, ou plusieurs doutes.
 
 ## h) Rapport en français, enregistré puis poussé
@@ -229,12 +236,12 @@ Le script propose une **confiance** :
 ajoutés) ; niveau de confiance et ce qui pourrait le faire changer>
 
 ## Ce que la recherche a consommé
-- SerpApi : <n> recherches (il en reste <x> sur 250 ce mois-ci)
-- Trendtrack : <n> crédits (il en reste <x>)
+- SerpApi : <n> recherches (il en reste <x> sur 250 ce mois-ci) : <détail images / pubs Meta / vidéos courtes>
 
 ## Limites à garder en tête
-- La date Trendtrack est la **première fois que Trendtrack a vu la pub**, pas forcément
-  le jour où elle a été publiée.
+- La date de début d'une pub Meta est le **début de diffusion de cette pub** : la vidéo a pu
+  être postée avant, ailleurs. (Et si Trendtrack est utilisé : sa date est la **première fois
+  que Trendtrack a vu la pub**, pas forcément le jour où elle a été publiée.)
 - Les **posts supprimés** et **Douyin** (le TikTok chinois, souvent la vraie source des
   vidéos de produits) restent invisibles pour cette recherche.
 - Instagram et Facebook bloquent souvent la lecture automatique : certaines dates manquent.
@@ -254,7 +261,8 @@ confiance, le tableau en court, ce qui a été consommé, et le lien vers le rap
 ## i) Toujours rappeler les limites
 
 Même si je ne demande rien, termine en rappelant :
-- la date Trendtrack = **première fois vue par Trendtrack**, pas forcément la publication ;
+- la date de début d'une pub Meta = **début de diffusion de cette pub**, la vidéo a pu exister
+  avant ; la date Trendtrack = **première fois vue par Trendtrack**, pas forcément la publication ;
 - les **posts supprimés** et **Douyin** restent invisibles.
 
 ---
@@ -263,8 +271,19 @@ Même si je ne demande rien, termine en rappelant :
 
 | Problème | Que faire |
 |---|---|
-| yt-dlp « connexion requise », « bloque ce serveur » ou 403 (Instagram, YouTube, la bibliothèque pub Meta, certains TikTok) | Normal depuis un serveur. Ne cherche pas à contourner ces protections anti-robot. Garde la date calculée à partir de l'identifiant si elle existe, regarde la miniature, sinon passe par Trendtrack (Media URL) ou demande-moi la vidéo avec le « + ». Les posts Facebook publics passent souvent. |
+| yt-dlp « connexion requise », « bloque ce serveur » ou 403 (Instagram, YouTube, la bibliothèque pub Meta, certains TikTok) | Normal depuis un serveur. Ne cherche pas à contourner ces protections anti-robot. Garde la date calculée à partir de l'identifiant si elle existe, regarde la miniature, cherche la pub avec `recherche_meta.py` (son lien `media` se télécharge) ou demande-moi la vidéo avec le « + ». Les posts Facebook publics passent souvent. |
 | Aucun résultat SerpApi | Essaie d'autres images (plan sans texte, produit en gros plan). Annonce le nouveau coût et attends « ok ». |
-| Trendtrack à 0 crédit | Dis-le, fais sans, et note-le dans les limites du rapport. |
+| Pas de résultat dans la bibliothèque Meta | Les mots sont cherchés dans le texte de la pub, pas dans la vidéo : essaie d'autres mots (nom du produit, autre langue, marque). Annonce le coût et attends « ok ». |
 | `comparer_videos.py` dit « non » alors que ça se ressemble | Regarde la planche `comparaison_PXX.jpg`. Effet miroir, gros recadrage ou montage différent : écris « en partie » à la main et explique. |
 | Liens raw en erreur 404 | Le dépôt doit être public et la branche poussée. Relance `mettre_en_ligne.sh`. |
+
+---
+
+## Bonus facultatif : Trendtrack (seulement s'il a des crédits)
+
+Trendtrack n'a plus de crédit : **ne l'utilise pas**, sauf si je te dis qu'il en a de nouveau.
+Dans ce cas, vérifie avec `check_credits`, annonce le coût, attends « ok », puis :
+`search_ads` (`status: "all"`, `media_type: "video"`, `sort_by: "createdAt"`, `order: "asc"`),
+`scan_ad` (copies, durée de diffusion), `search_tiktok_library` (`type: "ad"` puis `"organic"`),
+`search_products_by_image` (qui vend le produit). Ajoute les pistes avec `ajouter_piste.py`
+(`--source trendtrack_…`, `--type-date "première vue Trendtrack"`, `--media "<Media URL>"`).

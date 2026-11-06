@@ -15,45 +15,12 @@ La clé est lue dans SERPAPI_KEY et n'est jamais affichée ni enregistrée.
 """
 import argparse
 import json
-import os
 import sys
-import urllib.error
-import urllib.parse
-import urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from commun import (PLATEFORMES_VIDEO, ajouter_ou_fusionner, charger_pistes, dire, dossier_recherche,  # noqa: E402
-                    erreur, masquer, plateforme, sauver_pistes)
-
-API = "https://serpapi.com/search.json"
-
-
-def appel(params: dict) -> dict:
-    cle = os.environ.get("SERPAPI_KEY")
-    if not cle:
-        erreur("SERPAPI_KEY absente")
-    url = API + "?" + urllib.parse.urlencode({**params, "api_key": cle})
-    try:
-        with urllib.request.urlopen(url, timeout=90) as r:
-            return json.load(r)
-    except urllib.error.HTTPError as e:
-        try:
-            return json.load(e)
-        except Exception:
-            return {"error": f"HTTP {e.code}"}
-    except Exception as e:
-        return {"error": type(e).__name__}
-
-
-def restant() -> int:
-    cle = os.environ.get("SERPAPI_KEY", "")
-    u = "https://serpapi.com/account.json?" + urllib.parse.urlencode({"api_key": cle})
-    try:
-        return int(json.load(urllib.request.urlopen(u, timeout=20)).get("total_searches_left", 0))
-    except Exception:
-        return -1
-
+                    erreur, masquer, plateforme, sauver_pistes, serpapi, serpapi_restant)
 
 def resultats(data: dict):
     """Toutes les pages trouvées (lien + titre), dans l'ordre."""
@@ -86,7 +53,7 @@ def main():
             erreur(f"moteur inconnu : {m} (lens ou yandex)")
     exact = min(a.exact, len(liens)) if "lens" in moteurs or a.exact else 0
     cout = len(liens) * len(moteurs) + exact
-    reste = restant()
+    reste = serpapi_restant()
 
     dire(f"Images : {len(liens)} ; moteurs : {', '.join(moteurs)}"
          + (f" ; + correspondances exactes Lens sur {exact} image(s)" if exact else ""))
@@ -113,7 +80,7 @@ def main():
 
     for nom_moteur, lien, params in taches:
         img = Path(lien).stem
-        data = appel(params)
+        data = serpapi(params)
         (brut / f"{nom_moteur}_{img}.json").write_text(masquer(json.dumps(data, ensure_ascii=False, indent=1)),
                                                        encoding="utf-8")
         if data.get("error"):
@@ -141,7 +108,7 @@ def main():
         p["nb_images"] = len(p.get("vu_dans", []))
     sauver_pistes(dossier, pistes)
     dire(f"{len(pistes) - avant} nouvelle(s) piste(s) ; total {len(pistes)}. "
-         f"Il reste {restant()} recherches SerpApi.")
+         f"Il reste {serpapi_restant()} recherches SerpApi.")
 
 
 if __name__ == "__main__":

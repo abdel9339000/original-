@@ -35,6 +35,8 @@ def date_txt(p):
     t = p.get("date_type") or ""
     if "Trendtrack" in t:
         return f"{d} (vue par Trendtrack)"
+    if "bibliothèque Meta" in t:
+        return f"{d} (début de la pub)"
     if "identifiant" in t:
         return f"{d} (calculée)"
     return d
@@ -72,7 +74,7 @@ def main():
 
     confirmees = sorted([p for p in pistes if p.get("meme_video") in ("oui", "partiel")], key=cle_classement)
     verifiees = [p for p in pistes if p not in confirmees and (p.get("meme_video") or p.get("lu")
-                 or any(s.startswith(("trendtrack", "lien", "filigrane")) for s in p.get("sources", [])))]
+                 or any(s.startswith(("trendtrack", "lien", "filigrane", "meta")) for s in p.get("sources", [])))]
     verifiees.sort(key=cle_classement)
     autres = [p for p in pistes if p not in confirmees and p not in verifiees]
 

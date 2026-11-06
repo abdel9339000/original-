@@ -41,6 +41,60 @@ def erreur(message: str, code: int = 1):
     sys.exit(code)
 
 
+# ---------------------------------------------------------------- SerpApi
+def serpapi(params: dict) -> dict:
+    """Une recherche SerpApi (coûte 1 recherche, sauf si SerpApi la sert depuis son cache)."""
+    import urllib.error
+    import urllib.request
+
+    cle = os.environ.get("SERPAPI_KEY")
+    if not cle:
+        erreur("SERPAPI_KEY absente")
+    url = "https://serpapi.com/search.json?" + urllib.parse.urlencode({**params, "api_key": cle})
+    try:
+        with urllib.request.urlopen(url, timeout=120) as r:
+            return json.load(r)
+    except urllib.error.HTTPError as e:
+        try:
+            return json.load(e)
+        except Exception:
+            return {"error": f"HTTP {e.code}"}
+    except Exception as e:
+        return {"error": type(e).__name__}
+
+
+def serpapi_restant() -> int:
+    """Recherches SerpApi restantes ce mois-ci (gratuit). -1 si inconnu."""
+    import urllib.request
+
+    cle = os.environ.get("SERPAPI_KEY", "")
+    u = "https://serpapi.com/account.json?" + urllib.parse.urlencode({"api_key": cle})
+    try:
+        return int(json.load(urllib.request.urlopen(u, timeout=20)).get("total_searches_left", -1))
+    except Exception:
+        return -1
+
+
+def annoncer_cout(cout: int, ok: bool) -> bool:
+    """Affiche le coût. Renvoie True s'il faut lancer (--ok donné et assez de recherches)."""
+    reste = serpapi_restant()
+    dire(f"Coût : {cout} recherche(s) SerpApi au maximum. Il en reste {reste if reste >= 0 else '?'} "
+         f"ce mois-ci (250 gratuites par mois).")
+    if not ok:
+        dire("Rien n'a été lancé. Relance avec --ok après l'accord de l'utilisateur.")
+        return False
+    if 0 <= reste < cout:
+        erreur(f"pas assez de recherches SerpApi ({reste} restantes pour {cout} nécessaires)")
+    return True
+
+
+def sauver_brut(dossier: Path, nom: str, data: dict):
+    brut = dossier / "travail" / "serpapi"
+    brut.mkdir(parents=True, exist_ok=True)
+    (brut / f"{slug(nom, 80)}.json").write_text(masquer(json.dumps(data, ensure_ascii=False, indent=1)),
+                                               encoding="utf-8")
+
+
 # ---------------------------------------------------------------- dossiers
 def slug(texte: str, longueur: int = 40) -> str:
     texte = unicodedata.normalize("NFKD", texte).encode("ascii", "ignore").decode()
