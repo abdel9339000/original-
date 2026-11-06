@@ -55,8 +55,9 @@ def ligne(p):
     meme = OUI_NON.get(p.get("meme_video"), "non vérifié")
     if p.get("miroir"):
         meme += " (miroir)"
-    if p.get("passage_compare") and p.get("meme_video") in ("oui", "partiel"):
-        meme += f" (passage {p['passage_compare']})"
+    for passage, r in (p.get("passages") or {}).items():
+        if r.get("meme_video") in ("oui", "partiel"):
+            meme += f" ; passage {passage} : {OUI_NON[r['meme_video']]}"
     if p.get("plus_longue"):
         duree += " (plus longue)"
     if p.get("erreur_lecture") and not p.get("meme_video"):
@@ -74,7 +75,7 @@ def main():
 
     confirmees = sorted([p for p in pistes if p.get("meme_video") in ("oui", "partiel")], key=cle_classement)
     verifiees = [p for p in pistes if p not in confirmees and (p.get("meme_video") or p.get("lu")
-                 or any(s.startswith(("trendtrack", "lien", "filigrane", "meta")) for s in p.get("sources", [])))]
+                 or any(s.startswith(("trendtrack", "lien", "filigrane")) for s in p.get("sources", [])))]
     verifiees.sort(key=cle_classement)
     autres = [p for p in pistes if p not in confirmees and p not in verifiees]
 
@@ -109,7 +110,8 @@ def main():
         niveau -= 1
         raisons.append(f"{len(sans_date)} autre(s) copie(s) identique(s) sans date connue, peut-être plus "
                        "ancienne(s) (" + ", ".join(p["id"] for p in sans_date[:6]) + ")")
-    bloquees = [p for p in verifiees if p.get("meme_video") == "?" or (p.get("erreur_lecture") and not p.get("date"))]
+    bloquees = [p for p in verifiees if p.get("meme_video") == "?"
+                or (p.get("erreur_lecture") and not p.get("date") and p.get("meme_video") != "non")]
     if bloquees:
         niveau -= 1
         raisons.append(f"{len(bloquees)} piste(s) n'ont pas pu être vérifiées (" +

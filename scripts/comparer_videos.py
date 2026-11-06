@@ -70,9 +70,12 @@ def distances(a: np.ndarray, b: np.ndarray) -> np.ndarray:
     return np.bitwise_count(x).min(axis=(2, 3))
 
 
-def telecharger(p: dict, dest_dir: Path) -> Path | None:
+def telecharger(p: dict, dest_dir: Path, refaire: bool = False) -> Path | None:
     dest_dir.mkdir(parents=True, exist_ok=True)
-    for ancien in dest_dir.glob(f"{p['id']}.*"):
+    deja = [f for f in dest_dir.glob(f"{p['id']}.*") if not f.name.endswith(".part")]
+    if deja and not refaire:  # déjà téléchargée : on la réutilise
+        return deja[0]
+    for ancien in deja:
         ancien.unlink()
     # Lien direct de la vidéo d'abord (pub Meta, Trendtrack) : la page elle-même est souvent bloquée.
     for url in [u for u in (p.get("media"), p.get("page") or p["url"]) if u]:
@@ -119,6 +122,7 @@ def main():
     ap.add_argument("dossier")
     ap.add_argument("--ids", required=True)
     ap.add_argument("--fichier", help="vidéo déjà téléchargée (une seule piste dans --ids)")
+    ap.add_argument("--retelecharger", action="store_true", help="retélécharger même si déjà là")
     ap.add_argument("--passage", help="ne comparer qu'un passage de la vidéo envoyée, ex. 25.1-29.5 "
                                       "(utile quand la pub est un montage de plusieurs vidéos)")
     a = ap.parse_args()
@@ -157,7 +161,7 @@ def main():
                 if Path(a.fichier).resolve() != fichier.resolve():
                     shutil.copy2(a.fichier, fichier)
             else:
-                fichier = telecharger(p, travail / "candidats")
+                fichier = telecharger(p, travail / "candidats", a.retelecharger)
             if not fichier or not fichier.exists():
                 p["meme_video"] = "?"
                 p["comparaison"] = "téléchargement impossible"
@@ -181,14 +185,19 @@ def main():
             decalage = float(np.median([(j - i) / FPS - debut for i, j, _ in paires])) if paires else 0.0
 
             verdict = "oui" if couverture >= .6 else "partiel" if couverture >= .3 else "non"
-            p.update({
+            resultat = {
                 "meme_video": verdict,
                 "miroir": bool(miroir and verdict != "non"),
                 "distance_mediane": mediane,
                 "couverture": round(float(couverture), 2),
-                "passage_compare": f"{debut:g}-{fin:g} s" if a.passage else "",
                 "contenu_en_plus": round(float(en_plus), 2),
                 "decalage_s": round(decalage, 1),
+            }
+            if a.passage:  # rangé à part : ne remplace pas la comparaison avec la vidéo entière
+                p.setdefault("passages", {})[f"{debut:g}-{fin:g} s"] = resultat
+            else:
+                p.update(resultat)
+            p.update({
                 "duree": info.get("duree") or p.get("duree"),
                 "qualite": qualite(info.get("largeur"), info.get("hauteur")),
                 "debit_kbps": info.get("debit_kbps"),
@@ -201,10 +210,10 @@ def main():
                         f"({couverture:.0%})", debut)
             plus = ""
             duree_ref = (fin or info_ref["duree"]) - debut
-            if verdict != "non" and (info.get("duree") or 0) > duree_ref + 1 and en_plus > .15:
+            if not a.passage and verdict != "non" and (info.get("duree") or 0) > duree_ref + 1 and en_plus > .15:
                 plus = f" ; version PLUS LONGUE (+{info['duree'] - duree_ref:.0f} s)"
                 p["plus_longue"] = True
-            if p["miroir"]:
+            if resultat["miroir"]:
                 plus += " ; image RETOURNÉE (miroir) par rapport à la vidéo envoyée"
             if a.passage:
                 plus += f" [comparé au passage {debut:g}-{fin:g} s]"

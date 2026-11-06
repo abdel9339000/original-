@@ -144,6 +144,8 @@ vente** : elles disent **qui vend le produit**.
    ```
    Les mots sont cherchés dans le **texte de la pub** (pas dans la vidéo) : essaie le nom du
    produit dans la langue de la pub, la marque, le site. `--phrase-exacte` pour une phrase.
+   Le nom **précis** du produit marche le mieux (exemple réel : « escalfador huevos » a
+   trouvé la pub du premier coup, « huevo microondas » ramenait surtout des recettes).
    Chaque pub donne : **la page qui la diffuse**, la **date de début** (et de fin) selon Meta,
    active ou non, le **nombre de versions**, et le **lien de la vidéo** (`media`).
    - Si le nom du fichier contenait un identifiant de pub (étape a), ajoute
@@ -191,7 +193,9 @@ python3 scripts/ajouter_piste.py $D --url "<lien>" --source filigrane --compte "
    ```bash
    python3 scripts/comparer_videos.py $D --ids P03,P07 --passage 25.1-29.5
    ```
-   (les changements de plan affichés à l'étape b donnent les bornes).
+   (les changements de plan affichés à l'étape b donnent les bornes). Le résultat est rangé
+   à part (`passages` dans `pistes.json`) : il ne remplace pas la comparaison complète.
+   Les vidéos déjà téléchargées sont réutilisées (`--retelecharger` pour forcer).
 4. Si une piste ne se télécharge pas, regarde au moins sa **miniature** (lien `thumbnail`
    ou `original_image` dans `$D/travail/serpapi/*.json`) et compare-la à l'œil.
 
@@ -202,7 +206,10 @@ python3 scripts/tableau.py $D
 ```
 
 Le classement : **date la plus ancienne**, puis **version la plus longue**, puis **meilleure
-qualité**, puis **sans bandes noires ni recadrage**. Corrige à la main ce que le script ne
+qualité**, puis **sans bandes noires ni recadrage**.
+Si plusieurs comptes ont **la même vidéo de base avec d'autres sous-titres**, regarde aussi
+qui fait des **variantes à son nom** (nouvelle accroche, carton de fin avec sa marque) :
+c'est souvent celui qui a monté la pub. Corrige à la main ce que le script ne
 voit pas : **sous-titres ajoutés**, logo d'un revendeur, effet miroir, accéléré.
 Le script propose une **confiance** :
 - **élevée** : même vidéo confirmée, vraie date de publication, rien de plus ancien en attente ;

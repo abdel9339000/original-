@@ -102,6 +102,14 @@ def main():
                     "titre": (pub.get("body") or pub.get("title") or "")[:120],
                 })
                 p["plateforme"] = "Pub Meta"
+                # Les données de Meta remplacent ce qu'on savait avant (ex. « page inconnue »).
+                for champ, val in (("compte", pub.get("page_name")), ("date", pub.get("start_date")),
+                                   ("media", vid.get("video_hd") or vid.get("video_sd")),
+                                   ("miniature", vid.get("video_preview_image"))):
+                    if val:
+                        p[champ] = val
+                if pub.get("start_date"):
+                    p["date_type"] = "début de diffusion (bibliothèque Meta)"
                 p.update({"ad_id": aid, "page_id": str(pub.get("page_id") or ""),
                           "collation_id": str(pub.get("collation_id") or ""),
                           "versions": pub.get("collation_count"), "active": pub.get("is_active"),
