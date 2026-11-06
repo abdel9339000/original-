@@ -1,7 +1,7 @@
 # Qui a posté cette vidéo en premier ?
 
 **Vidéo envoyée :** `c3351789-1122450026843349_video_0.mp4` · 29,5 s · 720x1280 (HD 720p) · avec son
-**Recherche du :** 6 novembre 2026 (3ᵉ mise à jour : **l'original est en anglais, aux États-Unis**)
+**Recherche du :** 6 novembre 2026 (dernière mise à jour : **l'original est en anglais, aux États-Unis**)
 
 ## En bref
 
@@ -11,6 +11,8 @@
 Les 7 utilisent **exactement le même fichier vidéo**, octet pour octet, et des liens de même
 forme (« /funnel/news-…-cp-… ») : c'est sans doute **un même réseau de boutiques**, ou une vidéo
 **fournie à plusieurs vendeurs**. On ne peut pas désigner un seul « premier compte » parmi les trois.
+**Avant le 03/09**, aucune des 43 pubs « egg poacher » diffusées aux États-Unis et au Royaume-Uni
+n'utilise cette vidéo : le 03/09 est bien sa **première apparition** trouvée.
 
 Ensuite, la vidéo a été **traduite et recopiée** :
 - 🇫🇷 **Frigora** (frigora.fr) : version française, depuis le **21/09/2026** ;
@@ -90,13 +92,17 @@ graisse… » (Frigora) → « 🍳 Freír huevos en la sartén es una sartén l
 8. **Bibliothèque Meta en anglais** (3 recherches) : « egg poacher » aux États-Unis et au
    Royaume-Uni, et les pubs de « Frigora ». Puis comparaison de 45 vidéos (gratuit).
 9. **Vidéos courtes Google** sur « whoever invented this deserves a raise » egg (1 recherche) : rien.
+10. **Pubs diffusées avant le 03/09** (« egg poacher », US et UK, 2 recherches), puis comparaison
+    de 43 vidéos (gratuit) : **aucune n'a cette vidéo**. En revanche, les mêmes pages (Unismart,
+    Luminelle, Cycleap, Propaneling, Donald Thomas, Coffroutils…) partagent **d'autres fichiers
+    identiques** dès le 12/08 : elles testent les mêmes vidéos sur plusieurs pages à la fois.
 
 ## Pistes trouvées
 
 Toutes les versions confirmées et toutes les pistes vérifiées :
 
 <details>
-<summary>Tableau complet (112 lignes)</summary>
+<summary>Tableau complet (131 lignes)</summary>
 
 | # | Plateforme | Compte | Date | Lien | Même vidéo | Qualité | Durée |
 |---|---|---|---|---|---|---|---|
@@ -125,36 +131,55 @@ Toutes les versions confirmées et toutes les pistes vérifiées :
 | P822 | Pub Meta | thefoldinglady | 2026-04-09 (début de la pub) | [facebook.com/ads/library?id=1577738533334222](https://facebook.com/ads/library?id=1577738533334222) | non | 720x1280 (HD 720p) | 16 s |
 | P175 | Instagram | ? | 2026-05-15 (calculée) | [instagram.com/p/DYWkHlskveZ](https://instagram.com/p/DYWkHlskveZ) | non | ? | ? |
 | P332 | Instagram | Carmen Quintanilla Gollihar | 2026-06-27 | [instagram.com/reel/DaGMGA7RJJ0](https://instagram.com/reel/DaGMGA7RJJ0) | non | 1440x2560 (HD 1080p+) | ? |
+| P867 | Pub Meta | Elara | 2026-07-17 (début de la pub) | [facebook.com/ads/library?id=4654053051527928](https://facebook.com/ads/library?id=4654053051527928) | non | 720x1280 (HD 720p) | 33 s |
+| P866 | Pub Meta | Auraivo Shop | 2026-07-22 (début de la pub) | [facebook.com/ads/library?id=1698162761472100](https://facebook.com/ads/library?id=1698162761472100) | non | 360x640 (basse) | 33 s |
 | P488 | TikTok | @life0.08 | 2026-08-10 (calculée) | [tiktok.com/@life0.08/video/767228257401364…](https://tiktok.com/@life0.08/video/7672282574013648150) | non | ? | ? |
 | P771 | Pub Meta | Elmejorr us | 2026-08-12 (début de la pub) | [facebook.com/ads/library?id=2248135132675392](https://facebook.com/ads/library?id=2248135132675392) | non | 360x640 (basse) | 21 s |
 | P810 | Pub Meta | Copenrain Shop | 2026-08-12 (début de la pub) | [facebook.com/ads/library?id=1715955536307841](https://facebook.com/ads/library?id=1715955536307841) | non | 576x1024 (SD) | 15 s |
 | P814 | Pub Meta | CoLody | 2026-08-12 (début de la pub) | [facebook.com/ads/library?id=3115007152026299](https://facebook.com/ads/library?id=3115007152026299) | non | 576x1024 (SD) | 15 s |
 | P828 | Pub Meta | Betifull shop | 2026-08-12 (début de la pub) | [facebook.com/ads/library?id=1056209027001486](https://facebook.com/ads/library?id=1056209027001486) | non | 576x1024 (SD) | 15 s |
+| P882 | Pub Meta | Shimmer07 UK | 2026-08-13 (début de la pub) | [facebook.com/ads/library?id=962519743538871](https://facebook.com/ads/library?id=962519743538871) | non | 576x1024 (SD) | 20 s |
 | P824 | Pub Meta | Shimmer07 UK | 2026-08-13 (début de la pub) | [facebook.com/ads/library?id=1035080595798529](https://facebook.com/ads/library?id=1035080595798529) | non | 576x1024 (SD) | 15 s |
 | P837 | Pub Meta | Shimmer07 UK | 2026-08-13 (début de la pub) | [facebook.com/ads/library?id=1379574536951517](https://facebook.com/ads/library?id=1379574536951517) | non | 576x1024 (SD) | 8 s |
 | P829 | Pub Meta | Betifull shop | 2026-08-14 (début de la pub) | [facebook.com/ads/library?id=2340250533447705](https://facebook.com/ads/library?id=2340250533447705) | non | 720x1280 (HD 720p) | 52 s |
 | P327 | Facebook | decor.snippets | 2026-08-14 | [facebook.com/decor.snippets/videos/comment…](https://facebook.com/decor.snippets/videos/comment-mine-this-multi-use-egg-maker-does-so-much-more-than-eggs-you-can-make-p/1093216366692658) | non | 1080x1920 (HD 1080p+) | 11 s |
 | P804 | Pub Meta | Unismart | 2026-08-18 (début de la pub) | [facebook.com/ads/library?id=1051207091037956](https://facebook.com/ads/library?id=1051207091037956) | non | 720x1280 (HD 720p) | 52 s |
+| P865 | Pub Meta | Coffroutils | 2026-08-18 (début de la pub) | [facebook.com/ads/library?id=27882235691445863](https://facebook.com/ads/library?id=27882235691445863) | non | 720x1280 (HD 720p) | 52 s |
 | P830 | Pub Meta | Achotoll | 2026-08-18 (début de la pub) | [facebook.com/ads/library?id=27899184003073578](https://facebook.com/ads/library?id=27899184003073578) | non | 540x960 (SD) | 23 s |
+| P870 | Pub Meta | Coffroutils | 2026-08-18 (début de la pub) | [facebook.com/ads/library?id=1890229021939373](https://facebook.com/ads/library?id=1890229021939373) | non | 540x960 (SD) | 23 s |
 | P764 | Pub Meta | Onlifeno | 2026-08-18 (début de la pub) | [facebook.com/ads/library?id=1032136223026026](https://facebook.com/ads/library?id=1032136223026026) | non | 360x640 (basse) | 22 s |
 | P801 | Pub Meta | Unismart | 2026-08-18 (début de la pub) | [facebook.com/ads/library?id=1585823903263741](https://facebook.com/ads/library?id=1585823903263741) | non | 576x1024 (SD) | 15 s |
 | P740 | Pub Meta | Onlifeno | 2026-08-18 (début de la pub) | [facebook.com/ads/library?id=1783542116000635](https://facebook.com/ads/library?id=1783542116000635) | non | 720x1280 (HD 720p) | 15 s |
 | P815 | Pub Meta | Suerteyayvip | 2026-08-18 (début de la pub) | [facebook.com/ads/library?id=4667947363436293](https://facebook.com/ads/library?id=4667947363436293) | non | 576x1024 (SD) | 15 s |
+| P879 | Pub Meta | Suneveryday | 2026-08-19 (début de la pub) | [facebook.com/ads/library?id=918122674148814](https://facebook.com/ads/library?id=918122674148814) | non | 576x1024 (SD) | 15 s |
+| P869 | Pub Meta | Coffroutils | 2026-08-20 (début de la pub) | [facebook.com/ads/library?id=2484355785395696](https://facebook.com/ads/library?id=2484355785395696) | non | 576x1024 (SD) | 15 s |
 | P834 | Pub Meta | Betifull shop | 2026-08-20 (début de la pub) | [facebook.com/ads/library?id=1362948696012345](https://facebook.com/ads/library?id=1362948696012345) | non | 576x1024 (SD) | 15 s |
+| P873 | Pub Meta | Alex B | 2026-08-20 (début de la pub) | [facebook.com/ads/library?id=2098710254066753](https://facebook.com/ads/library?id=2098710254066753) | non | 576x1024 (SD) | 15 s |
 | P836 | Pub Meta | Propaneling | 2026-08-21 (début de la pub) | [facebook.com/ads/library?id=28223717403927990](https://facebook.com/ads/library?id=28223717403927990) | non | 576x1024 (SD) | 15 s |
+| P868 | Pub Meta | Heporter | 2026-08-21 (début de la pub) | [facebook.com/ads/library?id=2807168342990241](https://facebook.com/ads/library?id=2807168342990241) | non | 576x1024 (SD) | 15 s |
+| P876 | Pub Meta | Voryneli.us | 2026-08-22 (début de la pub) | [facebook.com/ads/library?id=1532555812232792](https://facebook.com/ads/library?id=1532555812232792) | non | 720x1280 (HD 720p) | 15 s |
+| P872 | Pub Meta | Coffroutils | 2026-08-24 (début de la pub) | [facebook.com/ads/library?id=1073006628580916](https://facebook.com/ads/library?id=1073006628580916) | non | 720x1280 (HD 720p) | 23 s |
+| P881 | Pub Meta | Achotoll | 2026-08-24 (début de la pub) | [facebook.com/ads/library?id=904465992332678](https://facebook.com/ads/library?id=904465992332678) | non | 720x1280 (HD 720p) | 23 s |
 | P832 | Pub Meta | Sunny bee | 2026-08-25 (début de la pub) | [facebook.com/ads/library?id=913632631806072](https://facebook.com/ads/library?id=913632631806072) | non | 720x1280 (HD 720p) | 52 s |
 | P816 | Pub Meta | Unismart | 2026-08-26 (début de la pub) | [facebook.com/ads/library?id=3597353997088058](https://facebook.com/ads/library?id=3597353997088058) | non | 720x1280 (HD 720p) | 26 s |
+| P883 | Pub Meta | Londonwind | 2026-08-27 (début de la pub) | [facebook.com/ads/library?id=1605759980954754](https://facebook.com/ads/library?id=1605759980954754) | non | 720x1280 (HD 720p) | 43 s |
+| P871 | Pub Meta | Unismart | 2026-08-27 (début de la pub) | [facebook.com/ads/library?id=1771423923871815](https://facebook.com/ads/library?id=1771423923871815) | non | 720x1280 (HD 720p) | 25 s |
+| P874 | Pub Meta | DodoradoX | 2026-08-27 (début de la pub) | [facebook.com/ads/library?id=1017285587942389](https://facebook.com/ads/library?id=1017285587942389) | non | 720x1280 (HD 720p) | 25 s |
 | P802 | Pub Meta | Unismart | 2026-08-28 (début de la pub) | [facebook.com/ads/library?id=1674982696899801](https://facebook.com/ads/library?id=1674982696899801) | non | 720x1280 (HD 720p) | 28 s |
 | P799 | Pub Meta | Kariney shop | 2026-08-30 (début de la pub) | [facebook.com/ads/library?id=3065872207080707](https://facebook.com/ads/library?id=3065872207080707) | non | 576x1024 (SD) | 15 s |
+| P877 | Pub Meta | Vigilpest | 2026-08-31 (début de la pub) | [facebook.com/ads/library?id=1804941743837087](https://facebook.com/ads/library?id=1804941743837087) | non | 720x1280 (HD 720p) | 78 s |
 | P768 | Pub Meta | Lékué | 2026-08-31 (début de la pub) | [facebook.com/ads/library?id=1844261556746540](https://facebook.com/ads/library?id=1844261556746540) | non | 720x1280 (HD 720p) | 32 s |
 | P838 | Pub Meta | Lékué | 2026-08-31 (début de la pub) | [facebook.com/ads/library?id=1496689722503787](https://facebook.com/ads/library?id=1496689722503787) | non | 720x1280 (HD 720p) | 32 s |
 | P811 | Pub Meta | Luminelle | 2026-08-31 (début de la pub) | [facebook.com/ads/library?id=2479744012431292](https://facebook.com/ads/library?id=2479744012431292) | non | 720x1280 (HD 720p) | 30 s |
+| P878 | Pub Meta | Propaneling | 2026-08-31 (début de la pub) | [facebook.com/ads/library?id=2082093469084527](https://facebook.com/ads/library?id=2082093469084527) | non | 720x1280 (HD 720p) | 30 s |
 | P818 | Pub Meta | Warmday | 2026-09-01 (début de la pub) | [facebook.com/ads/library?id=1556005615730535](https://facebook.com/ads/library?id=1556005615730535) | non | 720x1280 (HD 720p) | 30 s |
+| P880 | Pub Meta | Stedwell | 2026-09-01 (début de la pub) | [facebook.com/ads/library?id=1047060948175853](https://facebook.com/ads/library?id=1047060948175853) | non | 720x1280 (HD 720p) | 30 s |
 | P813 | Pub Meta | Unismart | 2026-09-01 (début de la pub) | [facebook.com/ads/library?id=1041734905409938](https://facebook.com/ads/library?id=1041734905409938) | non | 720x1280 (HD 720p) | 30 s |
 | P833 | Pub Meta | Donald Thomas | 2026-09-01 (début de la pub) | [facebook.com/ads/library?id=2089131225057227](https://facebook.com/ads/library?id=2089131225057227) | non | 720x1280 (HD 720p) | 30 s |
 | P803 | Pub Meta | Chloe Sterling | 2026-09-01 (début de la pub) | [facebook.com/ads/library?id=1407988034640668](https://facebook.com/ads/library?id=1407988034640668) | non | 720x1266 (HD 720p) | 28 s |
 | P800 | Pub Meta | Cycleap | 2026-09-02 (début de la pub) | [facebook.com/ads/library?id=1056488803943493](https://facebook.com/ads/library?id=1056488803943493) | non | 720x1280 (HD 720p) | 30 s |
 | P325 | TikTok | @jackaffnegt | 2026-09-02 | [tiktok.com/@jackaffnegt/video/768090170391…](https://tiktok.com/@jackaffnegt/video/7680901703918521614) | non | 1080x1920 (HD 1080p+) | 29 s |
+| P875 | Pub Meta | Moodmerry | 2026-09-02 (début de la pub) | [facebook.com/ads/library?id=1079403138018314](https://facebook.com/ads/library?id=1079403138018314) | non | 720x1266 (HD 720p) | 28 s |
 | P817 | Pub Meta | Voryneli.store | 2026-09-03 (début de la pub) | [facebook.com/ads/library?id=1438821694974530](https://facebook.com/ads/library?id=1438821694974530) | non | 720x1280 (HD 720p) | 56 s |
 | P773 | Pub Meta | Elmejorr us | 2026-09-03 (début de la pub) | [facebook.com/ads/library?id=2669494403479802](https://facebook.com/ads/library?id=2669494403479802) | non | 720x1280 (HD 720p) | 32 s |
 | P481 | Instagram | Kathleen Mann | 2026-09-03 | [instagram.com/reel/Dc0iJGhpe_2](https://instagram.com/reel/Dc0iJGhpe_2) | non | 720x1280 (HD 720p) | 29 s |
@@ -228,24 +253,26 @@ Pourquoi :
 - c'est **la date la plus ancienne** trouvée pour cette vidéo ;
 - c'est la version **sans traduction** : l'accroche espagnole est la traduction mot à mot de
   l'anglais ;
+- **aucune pub diffusée avant le 03/09** (US et UK) n'utilise cette vidéo ;
 - les copies françaises et espagnoles arrivent 2 à 8 semaines plus tard.
 
 Ce qu'on ne sait pas :
 - **lequel des trois** a été le tout premier : même jour, même fichier, liens de même forme.
-  C'est probablement un **même réseau** (ou une vidéo fournie par un même fournisseur) ;
+  C'est très probablement un **même réseau** : ces pages partagent aussi d'autres vidéos
+  identiques depuis la mi-août, et leurs liens ont la même forme (« /funnel/news-…-cp-… ») ;
 - si la vidéo a été postée **avant le 03/09** ailleurs (TikTok, TikTok Shop US…) ;
 - d'où vient le **passage réel de la fin** (cuiseur beige à l'évier, « 12 », texte flouté) :
   il est repris d'une vidéo plus ancienne, peut-être Douyin ou une fiche AliExpress.
 
 **Confiance : moyenne.**
 
-**Pour aller plus loin (avec ton « ok ») :** chercher les pubs « egg poacher » diffusées
-**avant le 03/09** (filtre de date dans la bibliothèque Meta, US et UK) : 2 recherches SerpApi.
+**On peut s'arrêter là.** Ce qui reste invisible pour nous : TikTok avant le 03/09, Douyin,
+les posts supprimés, et les boutiques du réseau (protégées par un contrôle anti-robot).
 
 ## Ce que la recherche a consommé
 
-- **SerpApi : 22 recherches** en tout : 12 pour les images, 7 dans la bibliothèque Meta,
-  3 pour les vidéos courtes. Il en reste **228** sur 250 ce mois-ci.
+- **SerpApi : 24 recherches** en tout : 12 pour les images, 9 dans la bibliothèque Meta,
+  3 pour les vidéos courtes. Il en reste **226** sur 250 ce mois-ci.
 - La fouille des boutiques et les comparaisons n'ont rien coûté. **Trendtrack : rien.**
 
 ## Limites à garder en tête
