@@ -1,0 +1,12 @@
+# Fichiers de travail : vidéos téléchargées, images brutes, réponses SerpApi
+recherches/**/travail/
+*.mp4
+*.mov
+*.webm
+*.mkv
+*.m4v
+*.avi
+*.part
+__pycache__/
+*.pyc
+.env
