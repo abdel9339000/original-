@@ -19,6 +19,8 @@ Options :
   --tri recent|impressions   (défaut : impressions, comme la bibliothèque Meta)
   --pages N           pages de 30 pubs par recherche (défaut : 1)
   --chercher-id ID    signale si la pub ID est trouvée (ex. l'identifiant du nom du fichier)
+  --apres / --avant AAAA-MM-JJ   pubs diffusées pendant cette période (ex. --avant 2026-09-02
+                      pour voir ce qui tournait AVANT la plus ancienne version trouvée)
 
 Coût : 1 recherche SerpApi par page (au maximum : nombre de --mots/--page-id × --pages).
 Pubs actives ET inactives, vidéos seulement. Liens vidéo valables quelques jours.
@@ -43,6 +45,8 @@ def main():
     ap.add_argument("--tri", choices=["impressions", "recent"], default="impressions")
     ap.add_argument("--pages", type=int, default=1)
     ap.add_argument("--chercher-id", default="")
+    ap.add_argument("--apres", default="", help="pubs diffusées à partir de cette date (AAAA-MM-JJ)")
+    ap.add_argument("--avant", default="", help="pubs diffusées jusqu'à cette date (AAAA-MM-JJ)")
     ap.add_argument("--ok", action="store_true")
     a = ap.parse_args()
 
@@ -70,13 +74,17 @@ def main():
             params["page_id"] = valeur
         if a.langues:
             params["content_languages"] = a.langues
+        if a.apres:
+            params["start_date"] = a.apres
+        if a.avant:
+            params["end_date"] = a.avant
         jeton = None
         for n in range(a.pages):
             if jeton:
                 params["next_page_token"] = jeton
             data = serpapi(params)
             utilisees += 1
-            sauver_brut(dossier, f"meta_{genre}_{valeur}_p{n + 1}", data)
+            sauver_brut(dossier, f"meta_{genre}_{valeur}_{a.pays}_{a.langues or 'toutes'}_{a.apres}_{a.avant}_p{n + 1}", data)
             if data.get("error"):
                 dire(f"  {genre} « {valeur} » page {n + 1} : pas de résultat ({data['error']})")
                 break
@@ -113,7 +121,8 @@ def main():
                 p.update({"ad_id": aid, "page_id": str(pub.get("page_id") or ""),
                           "collation_id": str(pub.get("collation_id") or ""),
                           "versions": pub.get("collation_count"), "active": pub.get("is_active"),
-                          "fin_diffusion": fin, "page_lien": pub.get("page_profile_link") or ""})
+                          "fin_diffusion": fin, "page_lien": pub.get("page_profile_link") or "",
+                          "lien_boutique": pub.get("link") or ""})
                 p["note"] = (f"{'active' if pub.get('is_active') else 'inactive'}"
                              f"{' (fin ' + fin + ')' if fin else ''} ; {pub.get('collation_count') or 1} version(s) ; "
                              f"page_id {pub.get('page_id')}")

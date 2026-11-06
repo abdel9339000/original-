@@ -174,8 +174,11 @@ vente** : elles disent **qui vend le produit**.
    Pense aussi à la **langue d'origine** : une accroche traduite mot à mot (« quien inventó
    esto se merece un aumento » = « whoever invented this deserves a raise ») trahit une
    source en anglais. Cherche alors en anglais, aux États-Unis (US) et au Royaume-Uni (GB).
-   Attention : hors Union européenne, la bibliothèque Meta ne montre en général que les pubs
-   **encore actives**.
+   Les pubs inactives aux US et au UK apparaissent aussi (constaté), mais il peut en manquer.
+   **Même fichier chez plusieurs comptes le même jour** (`comparer_videos.py` le signale :
+   « FICHIER IDENTIQUE ») = vidéo **distribuée** (fournisseur, réseau de boutiques). Regarde
+   alors la structure de leurs liens (ex. tous en `/funnel/news-…-cp-…`) : c'est souvent un
+   même réseau. Les pages protégées par un contrôle anti-robot (Cloudflare) : on n'insiste pas.
 
 Tu peux aussi ajouter une piste à la main (filigrane, lien que je te donne…) :
 ```bash

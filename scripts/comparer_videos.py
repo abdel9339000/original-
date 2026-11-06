@@ -17,6 +17,7 @@ Produit travail/comparaison_PXX.jpg (côte à côte) pour vérifier à l'œil.
 Gratuit : ne consomme ni SerpApi ni Trendtrack.
 """
 import argparse
+import hashlib
 import shutil
 import subprocess
 import sys
@@ -197,6 +198,7 @@ def main():
                 p.setdefault("passages", {})[f"{debut:g}-{fin:g} s"] = resultat
             else:
                 p.update(resultat)
+            p["empreinte_fichier"] = hashlib.md5(fichier.read_bytes()).hexdigest()
             p.update({
                 "duree": info.get("duree") or p.get("duree"),
                 "qualite": qualite(info.get("largeur"), info.get("hauteur")),
@@ -220,6 +222,16 @@ def main():
             dire(f"  {pid} {p.get('plateforme')} {p.get('compte') or ''} : même vidéo = {verdict} "
                  f"(couverture {couverture:.0%}, distance {mediane}/64, décalage {decalage:+.1f} s) ; {p['qualite']}, "
                  f"{info.get('duree')} s, {info.get('debit_kbps')} kb/s{plus}")
+        # Le même fichier, octet pour octet, chez plusieurs comptes = vidéo distribuée (fournisseur, réseau…)
+        groupes = {}
+        for x in pistes:
+            if x.get("empreinte_fichier"):
+                groupes.setdefault(x["empreinte_fichier"], []).append(x)
+        for g in groupes.values():
+            comptes = sorted({x.get("compte") or "?" for x in g})
+            if len(comptes) > 1:
+                dire(f"  FICHIER IDENTIQUE chez {len(comptes)} comptes : " + ", ".join(comptes)
+                     + " (" + ", ".join(sorted(x["id"] for x in g)) + ")")
         sauver_pistes(dossier, pistes)
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
