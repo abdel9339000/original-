@@ -161,6 +161,22 @@ vente** : elles disent **qui vend le produit**.
    Une phrase rare (l'accroche) marche mieux que des mots courants. `--moteur videos` pour
    l'onglet Vidéos de Google.
 
+3. **Fouiller les boutiques des annonceurs** (gratuit), même quand tu crois avoir trouvé :
+   la première pub vue n'est pas forcément la boutique d'origine. Les copieurs laissent des
+   traces (exemple réel : Vitalba avait une icône « vitalba-favicon-**frigora**-style.png »,
+   Fresito une page au titre français dont les images venaient du stockage de Frigora) :
+   ```bash
+   python3 scripts/fouiller_boutique.py $D --site <domaine> --page "<lien de la pub>" --essayer-marques
+   ```
+   Il liste les produits et leur date de création, signale les images chargées depuis
+   **une autre boutique**, l'outil de clonage, les noms de marque inconnus dans les fichiers,
+   et essaie `<marque>.fr/.com/.es/.de/.it`. Remonte la chaîne de copie jusqu'au bout.
+   Pense aussi à la **langue d'origine** : une accroche traduite mot à mot (« quien inventó
+   esto se merece un aumento » = « whoever invented this deserves a raise ») trahit une
+   source en anglais. Cherche alors en anglais, aux États-Unis (US) et au Royaume-Uni (GB).
+   Attention : hors Union européenne, la bibliothèque Meta ne montre en général que les pubs
+   **encore actives**.
+
 Tu peux aussi ajouter une piste à la main (filigrane, lien que je te donne…) :
 ```bash
 python3 scripts/ajouter_piste.py $D --url "<lien>" --source filigrane --compte "<@pseudo>" \
