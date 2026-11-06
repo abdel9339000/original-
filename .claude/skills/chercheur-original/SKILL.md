@@ -51,6 +51,17 @@ la durée et la qualité.
   calcule à partir de ce numéro (voir `date_depuis_identifiant` dans `scripts/commun.py`).
 - `snaptik_…`, `ssstik_…`, `SnapTik…` : téléchargée depuis TikTok par un site de téléchargement.
 
+**Avant de dépenser quoi que ce soit : réutilise les recherches précédentes** (gratuit).
+Si une recherche existe déjà pour le même annonceur ou le même produit (dossiers dans
+`recherches/`), compare la nouvelle vidéo à toutes les vidéos déjà téléchargées :
+```bash
+python3 scripts/reutiliser_recherche.py $D --depuis recherches/<date>/<ancienne-recherche>
+python3 scripts/comparer_videos.py $D --ids <la liste affichée>
+```
+Exemple réel : la 2ᵉ vidéo Vitalba a été remontée jusqu'au réseau US/UK et à Frigora avec
+**0 recherche SerpApi**. Les vidéos ne sont gardées que dans `travail/` : si la session a été
+recréée, elles ont disparu (il faudra les retélécharger).
+
 ## b) Extraire les images clés et noter les indices (gratuit)
 
 ```bash

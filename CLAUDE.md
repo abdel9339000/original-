@@ -7,6 +7,15 @@ La méthode complète est dans la skill `chercheur-original`
 (`.claude/skills/chercheur-original/SKILL.md`). Utilise-la dès que je t'envoie une vidéo
 (jointe avec le « + ») ou un lien, ou que je te demande « qui a posté ça en premier ».
 
+## Ce que je cherche vraiment
+
+Mes vidéos viennent **souvent de la boutique espagnole Vitalba** (mivitalba.com), qui **copie**
+d'autres boutiques. Le but n'est pas Vitalba : c'est **la boutique et le compte d'origine**.
+Remonte toute la chaîne de copie. Chaîne déjà trouvée (novembre 2026, cuiseur à œufs) :
+**réseau de pages US/UK** (Luminelle, Unismart, Propaneling, Cycleap, Chloe Sterling… liens
+« /funnel/news-…-cp-… ») → **Frigora** (frigora.fr, FR) → **Vitalba** et **Fresito** (ES).
+Commence toujours par **réutiliser les recherches précédentes** (gratuit, voir la skill).
+
 ## Comment tu me parles
 
 - Toujours en **français**, et tu me **tutoies**.
