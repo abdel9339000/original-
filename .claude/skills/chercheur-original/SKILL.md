@@ -304,6 +304,36 @@ Même si je ne demande rien, termine en rappelant :
 
 ---
 
+## Variante : trouver la boutique copiée (sans vidéo)
+
+Quand je t'envoie **plusieurs boutiques** qui vendent le même produit et que je te demande
+**qui elles ont copié** (exemple réel : Ondellia, Coccoli Milano, Bebysh → K9Clean) :
+
+1. Crée le dossier `recherches/<date>/<nom>/` (avec `travail/`, `images/`, `pistes.json` = `[]`).
+2. **Compare les boutiques** (gratuit) :
+   ```bash
+   python3 scripts/comparer_boutiques.py $D URL1 URL2 URL3
+   ```
+   Il donne pour chacune : pays, thème, date de création du produit, catalogue (les cadeaux
+   « e-book », « mystery gift », « free shipping » sont souvent copiés), e-mails, et surtout ce
+   qu'elles ont **en commun** : **avis clients** (même traduits : Sofia L. = Sophie L.),
+   pourcentages, prix, images, stockage d'images.
+3. **Regarde les images du produit** (outil Read) : les copieurs **traduisent les images** de
+   l'original (« Same Great Product, Sweet New Look! » → « Stessa Formula Potente, Nuovo Look
+   Raffinato! »). Une étiquette dans une autre langue sur le pot « de nos vidéos » trahit l'original.
+4. **Remets en anglais** (ou dans la langue de départ) les phrases et chiffres marquants, et
+   cherche-les sur le web avec l'outil **WebSearch** (gratuit pour moi : ce n'est pas SerpApi).
+   Cherche aussi dans les **recueils de pages à copier** (« swipe », « listicle », « presell »).
+5. Quand tu tiens une candidate, relance l'étape 2 avec `--candidat <sa page produit>`.
+   Règle : si B reprend des choses **propres à A** et que le produit de A est **plus ancien**,
+   alors B a copié A. Fais un tableau « qui a copié qui ».
+6. Cherche aussi le **fabricant** : l'« ancien emballage » montré par la boutique d'origine est
+   souvent le produit d'une marque d'usine (Amazon, Chewy, AliExpress…).
+7. Rapport avec : la chaîne de copie, les preuves (une image côte à côte des versions traduites
+   aide beaucoup), la confiance, ce qui a été consommé et les limites.
+
+---
+
 ## Si ça coince
 
 | Problème | Que faire |

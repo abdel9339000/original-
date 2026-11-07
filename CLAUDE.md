@@ -15,6 +15,9 @@ Remonte toute la chaîne de copie. Chaîne déjà trouvée (novembre 2026, cuise
 **réseau de pages US/UK** (Luminelle, Unismart, Propaneling, Cycleap, Chloe Sterling… liens
 « /funnel/news-…-cp-… ») → **Frigora** (frigora.fr, FR) → **Vitalba** et **Fresito** (ES).
 Commence toujours par **réutiliser les recherches précédentes** (gratuit, voir la skill).
+Je peux aussi t'envoyer **plusieurs boutiques** au lieu d'une vidéo : trouve **la boutique
+qu'elles ont copiée** (voir « Variante » dans la skill). Exemple déjà fait : Ondellia, Coccoli
+Milano et Bebysh copient **K9Clean** (k9clean.shop, US).
 
 ## Comment tu me parles
 
