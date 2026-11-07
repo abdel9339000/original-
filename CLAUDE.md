@@ -17,7 +17,9 @@ Remonte toute la chaîne de copie. Chaîne déjà trouvée (novembre 2026, cuise
 Commence toujours par **réutiliser les recherches précédentes** (gratuit, voir la skill).
 Je peux aussi t'envoyer **plusieurs boutiques** au lieu d'une vidéo : trouve **la boutique
 qu'elles ont copiée** (voir « Variante » dans la skill). Exemple déjà fait : Ondellia, Coccoli
-Milano et Bebysh copient **K9Clean** (k9clean.shop, US).
+Milano et Bebysh copient **K9Clean** (k9clean.shop, US). Attention : la boutique envoyée
+peut aussi être **l'originale** que les autres copient (exemple : chaussettes sushi, Matstrumpor
+copiée par le réseau Makiko™ / Nordvella). Vérifie toujours les deux sens.
 
 ## Comment tu me parles
 

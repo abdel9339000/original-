@@ -75,8 +75,10 @@ def main():
         from commun import charger_pistes, hote
         ignores = ("amazon.", "walmart.", "ebay.", "aliexpress.", "temu.", "etsy.", "pinterest.", "facebook.",
                    "instagram.", "tiktok.", "youtube.", "google.", "yandex.", "shein.", "alibaba.")
-        domaines += [hote(p["url"]) for p in charger_pistes(Path(a.dossier))
-                     if not any(i in hote(p["url"]) for i in ignores)]
+        for p in charger_pistes(Path(a.dossier)):
+            for u in (p.get("url"), p.get("lien_boutique")):  # lien_boutique : site d'une pub Meta
+                if u and u.startswith("http") and not any(i in hote(u) for i in ignores):
+                    domaines.append(hote(u))
     candidats = list(dict.fromkeys(
         domaines + [f"{pre}{nom}.{ext}" for nom in a.noms for pre in PREFIXES for ext in EXTENSIONS]))
     dire(f"{len(candidats)} adresse(s) à tester…")
