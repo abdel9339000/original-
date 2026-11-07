@@ -43,5 +43,35 @@
     "note": "Sushi Socks Box (2 à 3 paires), fabriquées en Europe ; marque connue, différente du produit chinois de Matstrumpor.",
     "id": "P03",
     "plateforme": "Web"
+  },
+  {
+    "url": "https://sushisock.com/products/sushi-socks",
+    "sources": [
+      "boutique Shopify (même vendeur probable)"
+    ],
+    "compte": "Sushi Sock (sushisock.com, compte SE)",
+    "date": "2026-08-26",
+    "date_type": "création du produit (Shopify)",
+    "media": "",
+    "duree": null,
+    "titre": "",
+    "note": "Mêmes produits et prix que Matstrumpor, images chargées depuis le stockage de Matstrumpor (0976/7508/4115), thème nommé en suédois « Sushi Sock ätpinnar bara sushi ».",
+    "id": "P04",
+    "plateforme": "Web"
+  },
+  {
+    "url": "https://matsokker.shop/",
+    "sources": [
+      "boutique Shopify (même vendeur probable)"
+    ],
+    "compte": "Matsokker (matsokker.shop, Norvège, compte SE)",
+    "date": "2026-09-30",
+    "date_type": "création du produit (Shopify)",
+    "media": "",
+    "duree": null,
+    "titre": "",
+    "note": "« Matsokker » = chaussettes nourriture en norvégien ; seul produit : baguettes, avec la même capture d'écran que sushisock.com ; thème exporté d'une boutique suédoise (nordtools-se).",
+    "id": "P05",
+    "plateforme": "Web"
   }
 ]

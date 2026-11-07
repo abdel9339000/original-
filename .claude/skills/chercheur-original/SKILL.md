@@ -327,9 +327,19 @@ Quand je t'envoie **plusieurs boutiques** qui vendent le même produit et que je
 5. Quand tu tiens une candidate, relance l'étape 2 avec `--candidat <sa page produit>`.
    Règle : si B reprend des choses **propres à A** et que le produit de A est **plus ancien**,
    alors B a copié A. Fais un tableau « qui a copié qui ».
-6. Cherche aussi le **fabricant** : l'« ancien emballage » montré par la boutique d'origine est
+6. **Qui d'autre vend ce produit sur Shopify** (gratuit) : teste des adresses probables
+   (nom du produit dans plusieurs langues) et lis leurs catalogues :
+   ```bash
+   python3 scripts/trouver_boutiques_shopify.py $D --mot sushi --noms sushisocks sushisocken sushistrumpor
+   ```
+   Après une recherche d'image Google Lens (payante), ajoute `--depuis-pistes` pour tester tous
+   les sites trouvés. Même stockage d'images, mêmes produits et prix, thème nommé dans la même
+   langue = souvent **le même vendeur** avec plusieurs boutiques (exemple réel : Matstrumpor,
+   Sushi Sock, Matsokker).
+   Pour savoir qui **fait de la pub en ce moment** : `recherche_meta.py --actives`.
+7. Cherche aussi le **fabricant** : l'« ancien emballage » montré par la boutique d'origine est
    souvent le produit d'une marque d'usine (Amazon, Chewy, AliExpress…).
-7. Rapport avec : la chaîne de copie, les preuves (une image côte à côte des versions traduites
+8. Rapport avec : la chaîne de copie, les preuves (une image côte à côte des versions traduites
    aide beaucoup), la confiance, ce qui a été consommé et les limites.
 
 ---

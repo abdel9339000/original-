@@ -21,6 +21,19 @@ fournisseur chinois** avec ses propres textes. Elle ne montre pas de copie évid
 boutique. Pour trouver une éventuelle boutique copiée, il faut chercher **qui utilise les mêmes
 photos** (recherche d'image) et **qui faisait de la pub** avant elle (bibliothèque Meta).
 
+## Boutiques Shopify qui vendent ce produit (test gratuit de 2 302 adresses probables)
+
+| Boutique | Adresse | Compte | Produit sushi créé le | Prix | Lien avec Matstrumpor |
+|---|---|---|---|---|---|
+| **Matstrumpor** | matstrumpor.com **et** matstrumpor.se | 🇸🇪 SE | **01/12/2025** | 69 (US$) / 399 SEK | **la même boutique** (même compte Shopify, deux adresses) |
+| **Sushi Sock** | <https://sushisock.com/products/sushi-socks> | 🇸🇪 SE (vend en USD) | 26/08/2026 | 69 US$ | **même vendeur probable** : images chargées depuis le stockage de Matstrumpor, mêmes produits (sushi, burger, donut, pizza) et mêmes prix, thème nommé en suédois (« ätpinnar » = baguettes) |
+| **Matsokker** | <https://matsokker.shop/> | 🇸🇪 SE (vend en NOK, Norvège) | – (seul produit : baguettes, 30/09/2026) | 100 NOK | **même vendeur probable** : même capture d'écran que Sushi Sock, « matsokker » = « chaussettes nourriture » en norvégien, thème exporté d'une boutique suédoise |
+
+**Conclusion :** ces trois adresses forment **une famille de boutiques d'un même vendeur suédois**,
+qui décline sa boutique par pays (Suède, international, Norvège). Ce ne sont pas des copies par
+d'autres vendeurs. Pour trouver les **autres** boutiques Shopify qui vendent ce produit, il faut
+une recherche d'image (Google Lens) sur ses photos, puis le test automatique des sites trouvés.
+
 ## D'où vient le produit
 
 - **Concept d'origine : Sukeno (Japon)**, chaussettes roulées en sushi fabriquées à Toyama, connues
@@ -36,9 +49,11 @@ photos** (recherche d'image) et **qui faisait de la pub** avant elle (bibliothè
 
 ## Prochaine étape proposée (avec ton « ok »)
 
-- Recherche d'image **Google Lens** sur 3 photos de la barquette (dont les « correspondances
-  exactes ») : **6 recherches SerpApi**.
-- Pubs Meta « sushi socks » (tous pays) et « sushistrumpor » (Suède) : **2 recherches**.
+- Recherche d'image **Google Lens** sur 2 photos de la barquette (dont les « correspondances
+  exactes ») : **4 recherches SerpApi**, puis test gratuit des sites trouvés pour garder les
+  boutiques Shopify, avec leurs dates (`trouver_boutiques_shopify.py --depuis-pistes`).
+- En option : pubs Meta **actives** dans 6 langues (« sushi socks », « Sushi Socken »,
+  « chaussettes sushi », « calzini sushi », « calcetines sushi », « sushistrumpor ») : **6 recherches**.
 
 ## Limites
 
