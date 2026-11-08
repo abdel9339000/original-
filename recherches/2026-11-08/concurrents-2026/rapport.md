@@ -52,3 +52,17 @@ d'origine **Seedshub** (US, pot vert au chat de 2,29 lb, vendu sur Chewy, Amazon
 - Les boutiques dont le catalogue est protégé (Bebysh) n'ont pas de date de produit exacte.
 - La date de début d'une pub Meta est le début de diffusion de cette pub, pas forcément la date
   d'ouverture de la boutique. Les boutiques fermées et Douyin restent invisibles.
+
+## Pays francophones (France, Belgique, Suisse) : vérification gratuite du 08/11/2026
+
+| Boutique | Pays | Vend le dissolvant en poudre ? |
+|---|---|---|
+| **Bebysh** (bebysh.com) | 🇫🇷 | ✅ oui : **le seul actif en ce moment** sur le marché francophone |
+| **Eluno** (eluno.fr) | 🇫🇷 | ❌ plus maintenant : page « poudre-dissolvante-pour-poils-d-animaux » supprimée (404) ; boutique suisse eluno.ch en préparation (mot de passe) |
+| **Reinhab** (reinhab.com, domaine du 30/03/2026) | vendeur 🇫🇷 | ✅ oui, mais vend à l'étranger (anglais, allemand via reinhab-de.com, norvégien) |
+| Kovah (get-kovah.com) | 🇧🇪 | ✅ oui, mais site en anglais seulement |
+| Countdiss, Noucadeaux, Luckydogss | FR | ❌ pastilles pour lave-linge (autre produit) |
+| ByeBye Poils, StopPoils, ZéroPoil, Pattes Propres | 🇧🇪 / 🇫🇷 | ❌ épilateurs, brosses, gants |
+
+Méthode : recherche web (gratuite) et test d'adresses francophones probables (`.fr`, `.be`, `.ch`,
+`.lu`, `.ca`). Limite : seules 29 des 302 pubs « dissolvant poils » (FR) ont été vues.

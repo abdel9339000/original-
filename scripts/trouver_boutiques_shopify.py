@@ -31,7 +31,7 @@ from commun import dire  # noqa: E402
 
 UA = {"User-Agent": "Mozilla/5.0"}
 EXTENSIONS = ["com", "de", "fr", "es", "it", "nl", "se", "dk", "no", "fi", "pl", "at", "ch", "be",
-              "co.uk", "shop", "store", "eu", "net", "co"]
+              "co.uk", "shop", "store", "eu", "net", "co", "lu", "ca"]
 PREFIXES = ["", "the", "my", "get", "shop"]
 
 
