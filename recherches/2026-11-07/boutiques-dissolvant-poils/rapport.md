@@ -19,6 +19,13 @@
 > **Chaîne corrigée : K9Clean (US) → Bebysh (FR, mai 2026) → Coccoli (IT, sept. 2026)**.
 > Ondellia (ES) : images IA préparées en juillet 2026 (« hf_20260718… »), produit créé le 05/10/2026.
 
+> **Dates des noms de domaine** (registre public, vérifiées le 08/11/2026) : **k9clean.shop
+> 23/02/2026** · k9cleanpets.com 16/04/2026 · **bebysh.com 12/05/2026** · coccoli-milano.com
+> 17/03/2026 (domaine acheté tôt, mais produit, images et pubs de septembre, copiés de Bebysh) ·
+> ondellia.com 22/09/2026.
+> **Vidéos :** la pub d'animation de Coccoli (3 versions, octobre 2026) est la traduction italienne
+> de la pub Bebysh du 04/09/2026 : <https://www.facebook.com/ads/library/?id=2085380235389961>.
+
 ## En bref
 
 **La boutique copiée est K9Clean** (**k9clean.shop**, États-Unis) :

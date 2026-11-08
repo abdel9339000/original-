@@ -109,6 +109,16 @@ def analyser(url):
     }
 
 
+def date_domaine(domaine):
+    """Date d'enregistrement du nom de domaine (registre public RDAP, gratuit)."""
+    racine = domaine.replace("www.", "")
+    j = lire(f"https://rdap.org/domain/{racine}", True) or {}
+    for e in j.get("events", []):
+        if e.get("eventAction") == "registration":
+            return (e.get("eventDate") or "")[:10]
+    return ""
+
+
 def cle_nom(n):
     prenom, ini = n.split(" ")
     return EQUIVALENTS.get(prenom.lower(), prenom.lower()) + " " + ini
@@ -127,9 +137,11 @@ def main():
     for u in a.urls + a.candidat:
         r = analyser(u)
         r["candidat"] = u in a.candidat
+        r["domaine_cree_le"] = date_domaine(r["domaine"])
         res.append(r)
         dire(f"\n== {r['nom']} ({r['domaine']}){' [CANDIDATE]' if r['candidat'] else ''}")
         dire(f"   pays du compte : {r['pays']} | thème : {r['theme']} | Shopify : {r['myshopify'] or '?'}")
+        dire(f"   nom de domaine créé le : {r['domaine_cree_le'] or '?'}")
         dire(f"   produit : {r['produit'] or '?'} | créé le {r['cree_le'] or '? (catalogue protégé)'}")
         if r["catalogue"]:
             dire("   catalogue : " + " ; ".join(f"{d} {t}" for d, t in r["catalogue"][:12]))
