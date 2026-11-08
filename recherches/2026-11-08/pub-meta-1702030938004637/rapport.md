@@ -24,6 +24,24 @@ Pour l'instant, aucune version anglaise de ces vidéos n'a été trouvée chez K
 **Confiance : élevée** : même vidéo image pour image (distance 0 à 6 sur 64), avec seulement
 l'accroche et les sous-titres changés.
 
+## Concurrents plus anciens (recherche 2025, ajoutée le 08/11/2026)
+
+| Début des pubs | Annonceur | Site | Nom de domaine créé le | Remarque |
+|---|---|---|---|---|
+| **19/12/2025** | **SlimEase** (20 pubs) | slimeasehealth.com | 05/12/2025 | vend **le même pot vert avec le chat** (« HAIR DISSOLVING LAUNDRY POWDER », 1 040 g) que celui de la vidéo 4 : **plus ancien vendeur trouvé** |
+| 24/12/2025 | FurFlush (5 pubs) | furflush.com | 23/12/2025 | dissolvant en sachets (« Hair before the packet ») |
+| 27/12/2025 | SoftPaws (8 pubs) | shopsoftpaw.com | 27/12/2025 | « SoftPaws™ dissolves pet hair » |
+| 28/12/2025 | FurRinse (18 pubs) | slimeasehealth.com | – | **même fichier vidéo que SlimEase** : même vendeur |
+| 05/07/2026 (produit) | **P8 Clean** | getk9clean.com | 07/07/2026 | vendeur francophone, adresse qui imite K9Clean, avis communs avec K9Clean et Bebysh |
+
+**Aucune de leurs vidéos** ne correspond aux 4 pubs (41 pubs comparées) : les vidéos restent
+d'origine **Bebysh**. Mais le **produit** (le pot vert au chat) était vendu aux États-Unis dès
+**décembre 2025**, avant K9Clean (février 2026).
+
+Recherches : « pet hair dissolver » (US, 2025), « hair dissolving laundry powder » (tous pays, 2025),
+« dissolvant poils » (FR, 2025), « Tierhaare Waschmaschine » (DE, 2025), « P8Clean » : 5 recherches
+SerpApi. Il en reste **206** sur 250.
+
 ## Indices qui ont aidé
 
 - Fin des vidéos 1 à 3 : un pot avec une **étiquette en français** (« Dissout les Poils · Nettoie en
