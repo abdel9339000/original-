@@ -17,7 +17,9 @@ Remonte toute la chaîne de copie. Chaîne déjà trouvée (novembre 2026, cuise
 Commence toujours par **réutiliser les recherches précédentes** (gratuit, voir la skill).
 Je peux aussi t'envoyer **plusieurs boutiques** au lieu d'une vidéo : trouve **la boutique
 qu'elles ont copiée** (voir « Variante » dans la skill). Exemple déjà fait : Ondellia, Coccoli
-Milano et Bebysh copient **K9Clean** (k9clean.shop, US). Attention : la boutique envoyée
+Milano et Bebysh copient **K9Clean** (k9clean.shop, US) : chaîne K9Clean → Bebysh (FR, mai 2026)
+→ Coccoli (IT, sept. 2026) ; Ondellia (ES) copie K9Clean. Astuce : les **noms de fichiers**
+d'images contiennent souvent leur **date** (« hf_20260523_… », « ChatGPT_Image_25_mai_2026 »). Attention : la boutique envoyée
 peut aussi être **l'originale** que les autres copient (exemple : chaussettes sushi, Matstrumpor
 copiée par le réseau Makiko™ / Nordvella). Vérifie toujours les deux sens.
 

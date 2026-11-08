@@ -8,6 +8,17 @@
 **Produit :** poudre à mettre dans la machine à laver, qui « dissout » les poils de chien et de chat.
 **Recherche du :** 7 novembre 2026
 
+> ⚠️ **Correction du 8 novembre 2026 : Coccoli a copié Bebysh, et non l'inverse.**
+> Les noms des fichiers d'images de Bebysh contiennent leur date de création : « hf_20260523_… »
+> (images IA du **23 mai 2026**) et « ChatGPT_Image_25_mai_2026… ». Coccoli n'a commencé qu'en
+> **septembre 2026**, et sa page utilise **les mêmes fichiers** que Bebysh (« k9-review4.jpg »,
+> « 046_1_2x_1.png », « 047_2_2x_1.png », les images Amazon « 61jXNMjyW6L… », « 71s9n7wLH3L… »).
+> Ses avis clients sont des prénoms **français** traduits en italien (Anaïs T. → Anais T.,
+> Élodie F. → Elodia F., Cédric W. → Cesare W.). Bebysh utilise aussi « **k9-review4.jpg** »,
+> une image d'avis de **K9Clean**.
+> **Chaîne corrigée : K9Clean (US) → Bebysh (FR, mai 2026) → Coccoli (IT, sept. 2026)**.
+> Ondellia (ES) : images IA préparées en juillet 2026 (« hf_20260718… »), produit créé le 05/10/2026.
+
 ## En bref
 
 **La boutique copiée est K9Clean** (**k9clean.shop**, États-Unis) :
@@ -19,9 +30,9 @@ La chaîne de copie :
 | Ordre | Boutique | Pays | Produit créé le | A copié… |
 |---|---|---|---|---|
 | 1 | **K9Clean** (k9clean.shop) | 🇺🇸 | **10/07/2026** | (l'original) |
-| 2 | **Coccoli Milano** | 🇮🇹 (compte enregistré aux US) | 14/09/2026 | **K9Clean** |
-| 3 | **Ondellia** | 🇪🇸 | 05/10/2026 | **K9Clean** (directement) |
-| 4 | **Bebysh** | 🇫🇷 🇧🇪 | ? (catalogue protégé) | **Coccoli** (traduit en français) |
+| 2 | **Bebysh** | 🇫🇷 🇧🇪 | **mai 2026** (dates des images ; catalogue protégé) | **K9Clean** |
+| 3 | **Coccoli Milano** | 🇮🇹 (compte enregistré aux US) | 14/09/2026 | **Bebysh** (traduit en italien) |
+| 4 | **Ondellia** | 🇪🇸 | 05/10/2026 | **K9Clean** (directement) |
 
 **Derrière K9Clean**, le produit lui-même vient très probablement de **Seedshub**, une marque
 américaine primée en 2025. Elle vend ce « Pet Hair Dissolver » en boîte verte de 6 sachets, avec
@@ -52,7 +63,7 @@ Coccoli et Ondellia montrent toutes les deux un **autre pot** (blanc à étiquet
 « ce que tu recevras » : elles revendent le même produit générique et utilisent les visuels de
 K9Clean pour la pub.
 
-### Bebysh a traduit Coccoli (pas K9Clean)
+### Coccoli a traduit Bebysh (corrigé le 08/11 : on pensait l'inverse)
 
 - **26 avis clients sur 33 sont les mêmes**, traduits de l'italien au français : « Nadia R. -
   gatto + labrador » → « Nadia R. - chat + labrador », Chiara M. → Claire M., Antonio G. → Antoine G.,
