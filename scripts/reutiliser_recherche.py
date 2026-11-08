@@ -28,6 +28,8 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("dossier")
     ap.add_argument("--depuis", required=True)
+    ap.add_argument("--ajouter", action="store_true",
+                    help="ajouter aux pistes existantes (les numéros déjà présents sont gardés tels quels)")
     a = ap.parse_args()
     nouveau, ancien = dossier_recherche(a.dossier), dossier_recherche(a.depuis)
     if nouveau == ancien:
@@ -35,13 +37,13 @@ def main():
 
     pistes = charger_pistes(nouveau)
     deja = {p["id"] for p in pistes}
-    if deja:
-        erreur("le nouveau dossier a déjà des pistes : lance ce script juste après recuperer_video.py")
+    if deja and not a.ajouter:
+        erreur("le nouveau dossier a déjà des pistes : ajoute --ajouter pour compléter")
     (nouveau / "travail" / "candidats").mkdir(parents=True, exist_ok=True)
     copiees = []
     for p in charger_pistes(ancien):
         f = ancien / p["fichier"] if p.get("fichier") else None
-        if not f or not f.exists():
+        if not f or not f.exists() or p["id"] in deja:
             continue
         q = {k: v for k, v in p.items() if k not in RESULTATS}
         q["sources"] = list(dict.fromkeys(q.get("sources", []) + [f"recherche {ancien.name}"]))
