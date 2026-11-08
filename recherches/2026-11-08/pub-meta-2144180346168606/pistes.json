@@ -702,7 +702,13 @@
     "qualite": "720x1280 (HD 720p)",
     "debit_kbps": 1600,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P27.mp4"
+    "fichier": "travail/candidats/P27.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 18,
+    "couverture": 0.0,
+    "contenu_en_plus": 1.0,
+    "decalage_s": 0.0
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=1660802969378972",
@@ -731,7 +737,13 @@
     "qualite": "720x1280 (HD 720p)",
     "debit_kbps": 1359,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P28.mp4"
+    "fichier": "travail/candidats/P28.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 18,
+    "couverture": 0.0,
+    "contenu_en_plus": 1.0,
+    "decalage_s": 0.0
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=915027401621309",
@@ -760,7 +772,13 @@
     "qualite": "720x1280 (HD 720p)",
     "debit_kbps": 1411,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P29.mp4"
+    "fichier": "travail/candidats/P29.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 18,
+    "couverture": 0.0,
+    "contenu_en_plus": 0.99,
+    "decalage_s": -71.5
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=2496401204106378",
@@ -789,7 +807,13 @@
     "qualite": "720x1280 (HD 720p)",
     "debit_kbps": 799,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P30.mp4"
+    "fichier": "travail/candidats/P30.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 20,
+    "couverture": 0.0,
+    "contenu_en_plus": 1.0,
+    "decalage_s": 0.0
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=1092238926861869",
@@ -818,7 +842,13 @@
     "qualite": "720x1280 (HD 720p)",
     "debit_kbps": 1493,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P31.mp4"
+    "fichier": "travail/candidats/P31.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 16,
+    "couverture": 0.0,
+    "contenu_en_plus": 1.0,
+    "decalage_s": 173.0
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=1715187892955232",
@@ -847,7 +877,13 @@
     "qualite": "720x1280 (HD 720p)",
     "debit_kbps": 1434,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P32.mp4"
+    "fichier": "travail/candidats/P32.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 16,
+    "couverture": 0.0,
+    "contenu_en_plus": 1.0,
+    "decalage_s": 0.0
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=875501132298465",
@@ -876,7 +912,13 @@
     "qualite": "720x1280 (HD 720p)",
     "debit_kbps": 1123,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P33.mp4"
+    "fichier": "travail/candidats/P33.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 18,
+    "couverture": 0.0,
+    "contenu_en_plus": 1.0,
+    "decalage_s": 0.0
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=1001631212580619",
@@ -905,7 +947,13 @@
     "qualite": "720x1280 (HD 720p)",
     "debit_kbps": 1921,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P34.mp4"
+    "fichier": "travail/candidats/P34.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 20,
+    "couverture": 0.0,
+    "contenu_en_plus": 1.0,
+    "decalage_s": 0.0
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=2612305475893674",
@@ -934,7 +982,13 @@
     "qualite": "720x1280 (HD 720p)",
     "debit_kbps": 1597,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P35.mp4"
+    "fichier": "travail/candidats/P35.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 18,
+    "couverture": 0.0,
+    "contenu_en_plus": 1.0,
+    "decalage_s": 0.0
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=27575624632114971",
@@ -963,7 +1017,13 @@
     "qualite": "720x1280 (HD 720p)",
     "debit_kbps": 1217,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P36.mp4"
+    "fichier": "travail/candidats/P36.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 18,
+    "couverture": 0.0,
+    "contenu_en_plus": 0.99,
+    "decalage_s": 33.5
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=1769808597629515",
@@ -992,7 +1052,13 @@
     "qualite": "720x1280 (HD 720p)",
     "debit_kbps": 884,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P37.mp4"
+    "fichier": "travail/candidats/P37.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 20,
+    "couverture": 0.0,
+    "contenu_en_plus": 1.0,
+    "decalage_s": 0.0
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=2085380235389961",
@@ -1021,7 +1087,13 @@
     "qualite": "720x1280 (HD 720p)",
     "debit_kbps": 1495,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P38.mp4"
+    "fichier": "travail/candidats/P38.mp4",
+    "meme_video": "oui",
+    "miroir": false,
+    "distance_mediane": 6,
+    "couverture": 0.79,
+    "contenu_en_plus": 0.15,
+    "decalage_s": -4.5
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=28536301585971519",
@@ -1050,7 +1122,13 @@
     "qualite": "720x1280 (HD 720p)",
     "debit_kbps": 873,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P39.mp4"
+    "fichier": "travail/candidats/P39.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 18,
+    "couverture": 0.0,
+    "contenu_en_plus": 1.0,
+    "decalage_s": 0.0
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=1273978991195683",
@@ -1079,7 +1157,13 @@
     "qualite": "720x1280 (HD 720p)",
     "debit_kbps": 1384,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P40.mp4"
+    "fichier": "travail/candidats/P40.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 18,
+    "couverture": 0.0,
+    "contenu_en_plus": 1.0,
+    "decalage_s": 0.0
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=2282850105787298",
@@ -1108,7 +1192,13 @@
     "qualite": "720x1280 (HD 720p)",
     "debit_kbps": 1558,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P41.mp4"
+    "fichier": "travail/candidats/P41.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 18,
+    "couverture": 0.0,
+    "contenu_en_plus": 1.0,
+    "decalage_s": 112.5
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=1384432503884060",
@@ -1137,7 +1227,13 @@
     "qualite": "720x1280 (HD 720p)",
     "debit_kbps": 1332,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P42.mp4"
+    "fichier": "travail/candidats/P42.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 18,
+    "couverture": 0.0,
+    "contenu_en_plus": 1.0,
+    "decalage_s": 0.0
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=1612995040600997",
@@ -1166,7 +1262,13 @@
     "qualite": "720x1280 (HD 720p)",
     "debit_kbps": 1603,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P43.mp4"
+    "fichier": "travail/candidats/P43.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 18,
+    "couverture": 0.0,
+    "contenu_en_plus": 0.99,
+    "decalage_s": -5.0
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=1778596269943126",
@@ -1195,7 +1297,13 @@
     "qualite": "720x1280 (HD 720p)",
     "debit_kbps": 1375,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P44.mp4"
+    "fichier": "travail/candidats/P44.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 18,
+    "couverture": 0.0,
+    "contenu_en_plus": 1.0,
+    "decalage_s": 0.0
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=2045879349697177",
@@ -1224,7 +1332,13 @@
     "qualite": "720x1280 (HD 720p)",
     "debit_kbps": 1181,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P45.mp4"
+    "fichier": "travail/candidats/P45.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 20,
+    "couverture": 0.0,
+    "contenu_en_plus": 1.0,
+    "decalage_s": 0.0
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=1560193385887925",
@@ -1253,7 +1367,13 @@
     "qualite": "720x1280 (HD 720p)",
     "debit_kbps": 1304,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P46.mp4"
+    "fichier": "travail/candidats/P46.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 18,
+    "couverture": 0.0,
+    "contenu_en_plus": 1.0,
+    "decalage_s": 0.0
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=1098301256110925",
@@ -1282,7 +1402,13 @@
     "qualite": "720x1280 (HD 720p)",
     "debit_kbps": 1384,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P47.mp4"
+    "fichier": "travail/candidats/P47.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 16,
+    "couverture": 0.0,
+    "contenu_en_plus": 1.0,
+    "decalage_s": 0.0
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=2084882209056322",
@@ -1311,7 +1437,13 @@
     "qualite": "720x1280 (HD 720p)",
     "debit_kbps": 1493,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P48.mp4"
+    "fichier": "travail/candidats/P48.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 16,
+    "couverture": 0.01,
+    "contenu_en_plus": 1.0,
+    "decalage_s": 166.0
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=1550037800169948",
@@ -1340,7 +1472,13 @@
     "qualite": "720x1280 (HD 720p)",
     "debit_kbps": 1384,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P49.mp4"
+    "fichier": "travail/candidats/P49.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 16,
+    "couverture": 0.0,
+    "contenu_en_plus": 1.0,
+    "decalage_s": 0.0
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=1297391542469502",
@@ -1369,7 +1507,13 @@
     "qualite": "720x1280 (HD 720p)",
     "debit_kbps": 1307,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P50.mp4"
+    "fichier": "travail/candidats/P50.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 16,
+    "couverture": 0.0,
+    "contenu_en_plus": 1.0,
+    "decalage_s": 0.0
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=1437464908284932",
@@ -1398,7 +1542,13 @@
     "qualite": "720x1280 (HD 720p)",
     "debit_kbps": 1600,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P51.mp4"
+    "fichier": "travail/candidats/P51.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 18,
+    "couverture": 0.0,
+    "contenu_en_plus": 1.0,
+    "decalage_s": 0.0
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=852942284241294",
@@ -1427,7 +1577,13 @@
     "qualite": "720x1280 (HD 720p)",
     "debit_kbps": 1245,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P52.mp4"
+    "fichier": "travail/candidats/P52.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 18,
+    "couverture": 0.0,
+    "contenu_en_plus": 1.0,
+    "decalage_s": 0.0
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=1863218211309450",
@@ -1456,7 +1612,13 @@
     "qualite": "720x1280 (HD 720p)",
     "debit_kbps": 1367,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P53.mp4"
+    "fichier": "travail/candidats/P53.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 18,
+    "couverture": 0.0,
+    "contenu_en_plus": 1.0,
+    "decalage_s": 0.0
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=3366287046908538",
@@ -1485,7 +1647,13 @@
     "qualite": "720x1280 (HD 720p)",
     "debit_kbps": 1785,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P90.mp4"
+    "fichier": "travail/candidats/P90.mp4",
+    "meme_video": "oui",
+    "miroir": false,
+    "distance_mediane": 4,
+    "couverture": 0.81,
+    "contenu_en_plus": 0.15,
+    "decalage_s": -4.5
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=2144180346168606",
@@ -1514,7 +1682,13 @@
     "qualite": "720x1280 (HD 720p)",
     "debit_kbps": 1871,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P93.mp4"
+    "fichier": "travail/candidats/P93.mp4",
+    "meme_video": "oui",
+    "miroir": false,
+    "distance_mediane": 0,
+    "couverture": 1.0,
+    "contenu_en_plus": 0.0,
+    "decalage_s": 0.0
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=1702030938004637",
@@ -1543,7 +1717,13 @@
     "qualite": "720x1280 (HD 720p)",
     "debit_kbps": 1544,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P94.mp4"
+    "fichier": "travail/candidats/P94.mp4",
+    "meme_video": "oui",
+    "miroir": false,
+    "distance_mediane": 4,
+    "couverture": 0.84,
+    "contenu_en_plus": 0.11,
+    "decalage_s": -4.0
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=1616650462963427",
@@ -1572,7 +1752,13 @@
     "qualite": "720x1280 (HD 720p)",
     "debit_kbps": 1365,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P103.mp4"
+    "fichier": "travail/candidats/P103.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 18,
+    "couverture": 0.0,
+    "contenu_en_plus": 1.0,
+    "decalage_s": 0.0
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=1481627679471845",
@@ -1601,7 +1787,13 @@
     "qualite": "720x1280 (HD 720p)",
     "debit_kbps": 1328,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P104.mp4"
+    "fichier": "travail/candidats/P104.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 16,
+    "couverture": 0.01,
+    "contenu_en_plus": 1.0,
+    "decalage_s": 199.5
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=1146661277553251",
@@ -1630,7 +1822,13 @@
     "qualite": "720x1280 (HD 720p)",
     "debit_kbps": 1311,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P107.mp4"
+    "fichier": "travail/candidats/P107.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 18,
+    "couverture": 0.0,
+    "contenu_en_plus": 1.0,
+    "decalage_s": 0.0
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=2874352829594809",
@@ -1659,7 +1857,13 @@
     "qualite": "360x640 (basse)",
     "debit_kbps": 396,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P108.mp4"
+    "fichier": "travail/candidats/P108.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 16,
+    "couverture": 0.01,
+    "contenu_en_plus": 1.0,
+    "decalage_s": 199.5
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=1733634054288366",
@@ -1688,7 +1892,13 @@
     "qualite": "360x640 (basse)",
     "debit_kbps": 392,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P109.mp4"
+    "fichier": "travail/candidats/P109.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 16,
+    "couverture": 0.0,
+    "contenu_en_plus": 1.0,
+    "decalage_s": -36.5
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=27531828833178109",
@@ -1717,7 +1927,13 @@
     "qualite": "360x640 (basse)",
     "debit_kbps": 405,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P110.mp4"
+    "fichier": "travail/candidats/P110.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 16,
+    "couverture": 0.02,
+    "contenu_en_plus": 1.0,
+    "decalage_s": 232.2
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=1558456575377932",
@@ -1746,7 +1962,13 @@
     "qualite": "720x1280 (HD 720p)",
     "debit_kbps": 1909,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P111.mp4"
+    "fichier": "travail/candidats/P111.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 20,
+    "couverture": 0.0,
+    "contenu_en_plus": 1.0,
+    "decalage_s": 0.0
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=1051368384379049",
@@ -1775,7 +1997,13 @@
     "qualite": "720x1280 (HD 720p)",
     "debit_kbps": 1906,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P112.mp4"
+    "fichier": "travail/candidats/P112.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 20,
+    "couverture": 0.0,
+    "contenu_en_plus": 1.0,
+    "decalage_s": 0.0
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=1190528019710213",
@@ -1804,7 +2032,13 @@
     "qualite": "360x640 (basse)",
     "debit_kbps": 395,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P113.mp4"
+    "fichier": "travail/candidats/P113.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 18,
+    "couverture": 0.0,
+    "contenu_en_plus": 1.0,
+    "decalage_s": 92.5
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=1648811610101298",
@@ -1833,7 +2067,13 @@
     "qualite": "720x1280 (HD 720p)",
     "debit_kbps": 1288,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P114.mp4"
+    "fichier": "travail/candidats/P114.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 16,
+    "couverture": 0.0,
+    "contenu_en_plus": 1.0,
+    "decalage_s": 194.5
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=1706093483865723",
@@ -1862,7 +2102,13 @@
     "qualite": "360x640 (basse)",
     "debit_kbps": 378,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P115.mp4"
+    "fichier": "travail/candidats/P115.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 16,
+    "couverture": 0.01,
+    "contenu_en_plus": 1.0,
+    "decalage_s": 235.2
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=2213361596110236",
@@ -1891,7 +2137,13 @@
     "qualite": "720x1280 (HD 720p)",
     "debit_kbps": 1175,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P116.mp4"
+    "fichier": "travail/candidats/P116.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 16,
+    "couverture": 0.0,
+    "contenu_en_plus": 1.0,
+    "decalage_s": 93.5
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=1049500164387867",
@@ -1920,7 +2172,13 @@
     "qualite": "360x640 (basse)",
     "debit_kbps": 391,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P117.mp4"
+    "fichier": "travail/candidats/P117.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 20,
+    "couverture": 0.0,
+    "contenu_en_plus": 1.0,
+    "decalage_s": 0.0
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=27035829516049008",
@@ -1949,7 +2207,13 @@
     "qualite": "360x638 (basse)",
     "debit_kbps": 401,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P119.mp4"
+    "fichier": "travail/candidats/P119.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 20,
+    "couverture": 0.0,
+    "contenu_en_plus": 1.0,
+    "decalage_s": 0.0
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=28039873965640677",
@@ -1978,7 +2242,13 @@
     "qualite": "720x1280 (HD 720p)",
     "debit_kbps": 1670,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P122.mp4"
+    "fichier": "travail/candidats/P122.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 20,
+    "couverture": 0.0,
+    "contenu_en_plus": 1.0,
+    "decalage_s": 0.0
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=2286808385412130",
@@ -2007,7 +2277,13 @@
     "qualite": "360x640 (basse)",
     "debit_kbps": 400,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P123.mp4"
+    "fichier": "travail/candidats/P123.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 16,
+    "couverture": 0.02,
+    "contenu_en_plus": 1.0,
+    "decalage_s": 227.5
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=3643333845804465",
@@ -2036,7 +2312,13 @@
     "qualite": "360x450 (basse)",
     "debit_kbps": 382,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P124.mp4"
+    "fichier": "travail/candidats/P124.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 16,
+    "couverture": 0.0,
+    "contenu_en_plus": 1.0,
+    "decalage_s": 214.0
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=1730351661500725",
@@ -2065,7 +2347,13 @@
     "qualite": "360x640 (basse)",
     "debit_kbps": 372,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P125.mp4"
+    "fichier": "travail/candidats/P125.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 20,
+    "couverture": 0.0,
+    "contenu_en_plus": 1.0,
+    "decalage_s": 0.0
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=1707538466973821",
@@ -2094,7 +2382,13 @@
     "qualite": "720x1280 (HD 720p)",
     "debit_kbps": 1909,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P127.mp4"
+    "fichier": "travail/candidats/P127.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 20,
+    "couverture": 0.0,
+    "contenu_en_plus": 1.0,
+    "decalage_s": 0.0
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=3945389499096221",
@@ -2123,7 +2417,13 @@
     "qualite": "360x640 (basse)",
     "debit_kbps": 382,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P128.mp4"
+    "fichier": "travail/candidats/P128.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 20,
+    "couverture": 0.0,
+    "contenu_en_plus": 1.0,
+    "decalage_s": 0.0
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=1563515941863647",
@@ -2152,7 +2452,13 @@
     "qualite": "360x638 (basse)",
     "debit_kbps": 407,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P130.mp4"
+    "fichier": "travail/candidats/P130.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 20,
+    "couverture": 0.0,
+    "contenu_en_plus": 1.0,
+    "decalage_s": 0.0
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=999008489857907",
@@ -2181,7 +2487,13 @@
     "qualite": "720x1280 (HD 720p)",
     "debit_kbps": 1262,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P131.mp4"
+    "fichier": "travail/candidats/P131.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 16,
+    "couverture": 0.01,
+    "contenu_en_plus": 1.0,
+    "decalage_s": 198.2
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=2040895153435981",
@@ -2210,7 +2522,13 @@
     "qualite": "360x640 (basse)",
     "debit_kbps": 474,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P133.mp4"
+    "fichier": "travail/candidats/P133.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 18,
+    "couverture": 0.0,
+    "contenu_en_plus": 1.0,
+    "decalage_s": 0.0
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=1563092411845451",
@@ -2239,7 +2557,13 @@
     "qualite": "720x1280 (HD 720p)",
     "debit_kbps": 1915,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P134.mp4"
+    "fichier": "travail/candidats/P134.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 18,
+    "couverture": 0.0,
+    "contenu_en_plus": 1.0,
+    "decalage_s": 0.0
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=2858582117867354",
@@ -2268,7 +2592,13 @@
     "qualite": "360x640 (basse)",
     "debit_kbps": 387,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P138.mp4"
+    "fichier": "travail/candidats/P138.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 16,
+    "couverture": 0.02,
+    "contenu_en_plus": 1.0,
+    "decalage_s": 184.8
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=1540547757248304",
@@ -2297,7 +2627,13 @@
     "qualite": "360x640 (basse)",
     "debit_kbps": 342,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P141.mp4"
+    "fichier": "travail/candidats/P141.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 20,
+    "couverture": 0.0,
+    "contenu_en_plus": 1.0,
+    "decalage_s": 0.0
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=3537343903095980",
@@ -2326,7 +2662,13 @@
     "qualite": "360x640 (basse)",
     "debit_kbps": 386,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P143.mp4"
+    "fichier": "travail/candidats/P143.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 16,
+    "couverture": 0.02,
+    "contenu_en_plus": 1.0,
+    "decalage_s": 184.8
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=28003811369225639",
@@ -2355,7 +2697,13 @@
     "qualite": "360x640 (basse)",
     "debit_kbps": 513,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P146.mp4"
+    "fichier": "travail/candidats/P146.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 18,
+    "couverture": 0.0,
+    "contenu_en_plus": 1.0,
+    "decalage_s": 0.0
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=1755647062443483",
@@ -2384,7 +2732,13 @@
     "qualite": "720x1280 (HD 720p)",
     "debit_kbps": 1046,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P147.mp4"
+    "fichier": "travail/candidats/P147.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 20,
+    "couverture": 0.0,
+    "contenu_en_plus": 0.99,
+    "decalage_s": -58.0
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=2518954428577159",
@@ -2413,7 +2767,13 @@
     "qualite": "360x640 (basse)",
     "debit_kbps": 281,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P149.mp4"
+    "fichier": "travail/candidats/P149.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 18,
+    "couverture": 0.0,
+    "contenu_en_plus": 1.0,
+    "decalage_s": 0.0
   },
   {
     "url": "https://www.facebook.com/ads/library/?id=1537617664826038",
@@ -2442,6 +2802,12 @@
     "qualite": "360x640 (basse)",
     "debit_kbps": 387,
     "bandes_noires": "non",
-    "fichier": "travail/candidats/P150.mp4"
+    "fichier": "travail/candidats/P150.mp4",
+    "meme_video": "non",
+    "miroir": false,
+    "distance_mediane": 16,
+    "couverture": 0.02,
+    "contenu_en_plus": 1.0,
+    "decalage_s": 184.8
   }
 ]
