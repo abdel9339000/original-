@@ -19,6 +19,7 @@ Options :
   --tri recent|impressions   (défaut : impressions, comme la bibliothèque Meta)
   --pages N           pages de 30 pubs par recherche (défaut : 1)
   --actives           seulement les pubs actives (pour savoir qui vend le produit EN CE MOMENT)
+  --tous-medias       pubs en image aussi (par défaut : vidéos seulement)
   --chercher-id ID    signale si la pub ID est trouvée (ex. l'identifiant du nom du fichier)
   --apres / --avant AAAA-MM-JJ   pubs diffusées pendant cette période (ex. --avant 2026-09-02
                       pour voir ce qui tournait AVANT la plus ancienne version trouvée)
@@ -49,6 +50,7 @@ def main():
     ap.add_argument("--apres", default="", help="pubs diffusées à partir de cette date (AAAA-MM-JJ)")
     ap.add_argument("--avant", default="", help="pubs diffusées jusqu'à cette date (AAAA-MM-JJ)")
     ap.add_argument("--actives", action="store_true", help="seulement les pubs actives en ce moment")
+    ap.add_argument("--tous-medias", action="store_true", help="pubs en image aussi (défaut : vidéos seulement)")
     ap.add_argument("--ok", action="store_true")
     a = ap.parse_args()
 
@@ -66,7 +68,7 @@ def main():
     for genre, valeur in requetes:
         params = {
             "engine": "meta_ad_library", "country": a.pays, "active_status": "active" if a.actives else "all",
-            "media_type": "video",
+            "media_type": "all" if a.tous_medias else "video",
             "sort_by": "most_recent" if a.tri == "recent" else "impressions_high_to_low",
         }
         if genre == "mots":
@@ -87,7 +89,7 @@ def main():
                 params["next_page_token"] = jeton
             data = serpapi(params)
             utilisees += 1
-            sauver_brut(dossier, f"meta_{genre}_{valeur}_{a.pays}_{a.langues or 'toutes'}_{a.apres}_{a.avant}{'_actives' if a.actives else ''}_p{n + 1}", data)
+            sauver_brut(dossier, f"meta_{genre}_{valeur}_{a.pays}_{a.langues or 'toutes'}_{a.apres}_{a.avant}{'_actives' if a.actives else ''}{'_tous' if a.tous_medias else ''}_p{n + 1}", data)
             if data.get("error"):
                 dire(f"  {genre} « {valeur} » page {n + 1} : pas de résultat ({data['error']})")
                 break
