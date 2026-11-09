@@ -47,18 +47,67 @@ K9Clean vise surtout les États-Unis (pas l'Europe), mais c'est la boutique que 
 
 ## Bebysh traduit les pubs de K9Clean
 
-Comparaison d'images automatique (1 image par seconde) :
+Comparaison d'images automatique (1 image par seconde), avec les 9 pubs K9Clean ci-dessus et
+24 pubs K9Clean plus anciennes (recherche du 09/11 sur la page K9Clean, pubs diffusées avant le 22/09),
+puis comparaison des **textes parlés** (transcription automatique) :
 
-| Pub Bebysh (FR) | = traduction de la pub K9Clean (EN) | Images communes |
+| Pub Bebysh (FR) | vient de la pub K9Clean (EN) | Ce qui est repris |
 |---|---|---|
-| n° 1 (1769808597629515, depuis le 05/06) | n° 5 (1489789596117970) | 53 % (animation refaite avec le pot Bebysh) |
-| n° 9 (4685510805016918, depuis le 08/08) | n° 8 (2025569754826776) | 60 % (mêmes images, sous-titres traduits) |
+| n° 1 (1769808597629515, depuis le 05/06) | n° 5 (1489789596117970) | images 53 % (animation refaite avec le pot Bebysh) + texte traduit |
+| n° 2 (1273978991195683, depuis le 05/06) | 923256620177625 (K9Clean, 26/02/2026) | images 49 % + texte « mon mari pensait que je délirais » |
+| n° 3 (1660802969378972, depuis le 14/06) | n° 1, 2, 3 (le plombier) | texte traduit (« plombier depuis 20 ans », bouchon de poils « gros comme mon poing ») |
+| n° 4 (915027401621309, depuis le 08/07) | 923256620177625 (K9Clean, 26/02/2026) | images 32 % (même histoire du mari, autre texte) |
+| n° 7 (1276722927708959, depuis le 17/07) | n° 8 (2025569754826776) | texte traduit mot pour mot (le mari sceptique, l'eau marron) |
+| n° 8 (28536301585971519, depuis le 23/07) | 4149640142013412 (K9Clean, 24/06/2026) | images 62 % : le même test « poudre contre pastille » dans des bocaux |
+| n° 9 (4685510805016918, depuis le 08/08) | n° 8 (2025569754826776) | images 60 % + texte traduit |
 
 ![Bebysh 1 / K9Clean 5](images/bebysh01_traduit_k9clean05.jpg)
 ![Bebysh 9 / K9Clean 8](images/bebysh09_traduit_k9clean08.jpg)
+![Bebysh 2 / K9Clean 923256620177625](images/bebysh02_traduit_k9clean_fev2026.jpg)
+![Bebysh 8 / K9Clean 4149640142013412](images/bebysh08_traduit_k9clean_juin2026.jpg)
 
-Les 19 autres pubs Bebysh ne ressemblent à aucune de ces 9 pubs K9Clean : soit Bebysh les a
-créées, soit elles viennent de pubs K9Clean plus anciennes ou arrêtées (pas vérifié).
+Donc **au moins 7 des 21 pubs Bebysh viennent de K9Clean**. Pour les 14 autres, on n'a pas
+trouvé d'original : soit Bebysh les a créées, soit elles viennent de pubs K9Clean qu'on n'a pas
+vues (la page K9Clean annonce 113 pubs avant le 22/09, on en a regardé 33). La n° 20 parle de
+« Rick, réparateur depuis 25 ans » : un prénom américain, c'est sans doute une traduction aussi.
+
+## Les angles de vente (les 30 vidéos regardées)
+
+Un **angle**, c'est la raison principale que la pub donne pour acheter. Chaque vidéo a été
+transcrite (le son mis en texte) et regardée image par image.
+
+**Réponse : ce n'est pas un seul angle, il y en a 7.** Mais deux dominent.
+
+| # | Angle | L'idée en une phrase | K9Clean (EN) | Bebysh (FR) | Total |
+|---|---|---|---|---|---|
+| A | **La panne qui coûte cher** | « Les poils bouchent la pompe, la réparation coûte 200 à 800 €. » Souvent dit par un plombier ou un réparateur. | 01, 02, 03 | 03, 06, 12, 17, 18, 20 | **9** |
+| B | **La preuve en test** | « Regarde : les poils disparaissent dans le bol / ma poudre contre les pastilles ou le Calgon. » | 04, 06, 07, 09 | 08, 21 | **6** |
+| C | **L'eau qui sort marron** | « J'ai lancé un cycle à vide, l'eau est sortie marron. Mon mari disait que j'exagérais. » | 08 | 02, 04, 07, 09 | **5** |
+| D | **J'ai tout essayé, rien ne marche** | « Rouleau, balles, vinaigre, gant… mes vêtements sont toujours pleins de poils. » | – | 10, 11, 13, 14, 15 | **5** |
+| E | **La machine plus sale que des toilettes** | « Ta machine est un nid à saleté, tes vêtements sortent plus sales. » (dégoût) | 05 | 01 | **2** |
+| F | **L'odeur** | « Ton linge sent l'humidité / le chien mouillé, et ça vient de la machine. » | – | 19 | **1** |
+| G | **La promo** | « 3 pots achetés, le 4e offert, dernière chance. » | – | 05, 16 | **2** |
+
+Les numéros sont ceux des fichiers envoyés (`0X_k9clean_…` et `0X_bebysh_…`).
+
+**À retenir :**
+
+- **Le fil rouge de presque toutes les pubs** : « le poil, c'est de la kératine, une protéine ;
+  ta lessive ne peut pas la dissoudre ; seule une enzyme (la protéase) le peut ». C'est
+  l'explication qui rend le produit crédible. Garde-la dans toutes tes pubs.
+- **L'angle A (la panne) est le plus ancien et le plus utilisé** : les 3 plus vieilles pubs
+  K9Clean (252, 211 et 178 jours) sont des plombiers. C'est sans doute l'angle qui rapporte le plus.
+- **Peu utilisés** : l'odeur (1 vidéo) et le dégoût (2). C'est une place à prendre.
+- Bebysh 13 et 14 (« Gwenaelle ») ont **le même texte**, avec deux montages différents : c'est
+  une façon de tester les images sans changer le message.
+- **Ce que K9Clean teste en ce moment** (90 pubs lancées du 30/10 au 09/11) : « elle l'a lavé
+  3 fois, ça sentait encore le chien mouillé » (odeur), « les signes que ta machine souffre »
+  (essorage qui tremble, vidange lente), « 6 choses que seuls les maîtres de chiens qui perdent
+  leurs poils comprennent », « vinaigre, acide citrique, Affresh, javel… rien ne marche »,
+  une offre « mise en ligne trop tôt par erreur », et une pub avec humour (« notre golden a posé
+  une question à l'IA »). Ils lancent aussi un **nouveau produit** : **KittyClean**, contre
+  l'odeur de pipi de chat (k9cleanpets.com/products/kittyclean-enzymatic-cat-urine-cleaner),
+  avec une cinquantaine de pubs.
 
 ## Comment elles ont été choisies
 
@@ -73,7 +122,9 @@ créées, soit elles viennent de pubs K9Clean plus anciennes ou arrêtées (pas 
 
 ## Ce que la recherche a consommé
 
-- **SerpApi : 0 recherche de plus** (données Meta déjà récupérées les 08 et 09/11). Il en reste **186** sur 250.
+- **SerpApi : 4 recherches** (page K9Clean : 3 pages des pubs les plus récentes + 1 page des
+  pubs d'avant le 22/09). Il en reste **182** sur 250.
+- Transcription du son : outil gratuit installé sur le serveur (faster-whisper).
 - **Trendtrack : rien** (pas de crédit jusqu'au 23/11).
 
 ## Limites à garder en tête
@@ -86,6 +137,10 @@ créées, soit elles viennent de pubs K9Clean plus anciennes ou arrêtées (pas 
 - La date de début est le **début de diffusion de cette pub** : la vidéo a pu exister avant ailleurs.
 - « Active depuis longtemps » est un **bon indice** de rentabilité, pas une preuve.
 - Ces pubs sont **déjà en français** : ce sont celles d'un concurrent direct (Bebysh).
-- « Traduction » repose sur une comparaison d'images automatique, vérifiée à l'œil sur les 2 paires.
+- « Traduction » repose sur une comparaison d'images automatique et sur la comparaison des
+  textes parlés, vérifiée à l'œil sur les paires montrées.
+- Les transcriptions sont automatiques : quelques mots peuvent être faux (ex. « Bebysh » écrit
+  « bébiche »). Le classement par angle est un jugement : certaines vidéos touchent 2 angles
+  (ex. le plombier parle aussi de l'odeur) ; on a gardé l'angle principal.
 - Les images `images/` sont dans un **dépôt public** : tout le monde peut les voir.
 
