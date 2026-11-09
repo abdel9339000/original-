@@ -110,3 +110,12 @@ et Reinhab n'en ont aucune (leurs pubs du dissolvant ont moins de 22 000 vues).
   cette semaine ; elle a 459 pubs vidéo en tout). Une pub moins vue mais qui dépense beaucoup depuis peu a pu échapper.
 - Les vues comptent seulement l'Europe. La date de début est le début de diffusion de la pub.
 - Les vidéos ne sont pas dans le dépôt : elles ont été envoyées directement.
+
+## Les 7 pubs ne racontent que 4 histoires (comparaison d'images, 1 image par seconde)
+
+| Histoire | Pubs | Détail |
+|---|---|---|
+| « La machine qui lave du linge de chien depuis 6 ans » | 3, 4, 5, 6 | 3, 4 et 6 (Coccoli, IT) : **la même vidéo**, seules les premières secondes changent (44 à 70 % d'images communes). C'est la traduction de la pub **Bebysh 2085380235389961** (FR, même animation orange, 75 % d'images communes avec la 6). 5 (Ondellia, ES) : même texte, autres dessins (dessin animé 3D). Bebysh a aussi une version au crayon (1843768487036265). |
+| Le plombier | 1 | Bebysh (FR). Coccoli a la version italienne (2143105509665462), avec d'autres images. |
+| « J'ai tout essayé » | 2 | Bebysh (FR). |
+| L'odeur | 7 | Coccoli (IT) : **la même vidéo** que la pub **Bebysh 2612305475893674** (FR), traduite (94 % d'images communes). |
