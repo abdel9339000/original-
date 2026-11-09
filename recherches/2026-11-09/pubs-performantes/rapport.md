@@ -26,6 +26,40 @@
 
 Signaux de performance utilisés : pub encore active, ancienneté (jours de diffusion). Meta ne publie pas les dépenses ; la couverture (vues) des pubs européennes se lit sur la page de chaque pub (« Transparence de la publicité dans l'UE »).
 
+## Bonus : pubs K9Clean (USA, en anglais) les plus anciennes encore actives (au 09/11/2026)
+
+| # | Fichier | Active depuis | Durée | Image | Texte de la pub (début) | Pub Meta |
+|---|---|---|---|---|---|---|
+| 1 | 01_k9clean_252jours_905600842437759.mp4 | 2026-03-02 (252 j) | 192 s | 720x1280 | Tired of pet hair everywhere? 🐶🐾 It’s not just your clothes — it’s you | https://www.facebook.com/ads/library/?id=905600842437759 |
+| 2 | 02_k9clean_211jours_1737015387705519.mp4 | 2026-04-12 (211 j) | 151 s | 720x1280 | Tired of pet hair everywhere? 🐶🐾 It’s not just your clothes — it’s you | https://www.facebook.com/ads/library/?id=1737015387705519 |
+| 3 | 03_k9clean_178jours_1739409830740883.mp4 | 2026-05-15 (178 j) | 144 s | 720x1280 | Tired of pet hair everywhere? 🐶🐾 It’s not just your clothes — it’s you | https://www.facebook.com/ads/library/?id=1739409830740883 |
+| 4 | 04_k9clean_170jours_1520291343070477.mp4 | 2026-05-23 (170 j) | 46 s | 720x1280 | Tired of pet hair everywhere? 🐶🐾 It’s not just your clothes — it’s you | https://www.facebook.com/ads/library/?id=1520291343070477 |
+| 5 | 05_k9clean_170jours_1489789596117970.mp4 | 2026-05-23 (170 j) | 42 s | 720x1280 | Tired of pet hair everywhere? 🐶🐾 It’s not just your clothes — it’s you | https://www.facebook.com/ads/library/?id=1489789596117970 |
+| 6 | 06_k9clean_157jours_1573366104363015.mp4 | 2026-06-05 (157 j) | 41 s | 720x1280 | Tired of pet hair everywhere? 🐶🐾 It’s not just your clothes — it’s you | https://www.facebook.com/ads/library/?id=1573366104363015 |
+| 7 | 07_k9clean_139jours_946558918417739.mp4 | 2026-06-23 (139 j) | 48 s | 720x1280 | Tired of pet hair everywhere? 🐶🐾 It’s not just your clothes — it’s you | https://www.facebook.com/ads/library/?id=946558918417739 |
+| 8 | 08_k9clean_100jours_2025569754826776.mp4 | 2026-08-01 (100 j) | 46 s | 720x1280 | Tired of pet hair everywhere? 🐶🐾 It’s not just your clothes. It’s your | https://www.facebook.com/ads/library/?id=2025569754826776 |
+| 9 | 09_k9clean_61jours_1360713082809476.mp4 | 2026-09-09 (61 j) | 110 s | 720x1280 | Tired of pet hair everywhere? 🐶🐾 It’s not just your clothes — it’s you | https://www.facebook.com/ads/library/?id=1360713082809476 |
+
+Page : K9Clean / K9Clean Pets (k9clean.shop, k9cleanpets.com), la boutique américaine que Bebysh, Coccoli et Ondellia ont copiée.
+
+Ces 9 vidéos sont **en anglais** : ce sont les versions d'origine, à traduire en français.
+K9Clean vise surtout les États-Unis (pas l'Europe), mais c'est la boutique que tout le monde copie.
+
+## Bebysh traduit les pubs de K9Clean
+
+Comparaison d'images automatique (1 image par seconde) :
+
+| Pub Bebysh (FR) | = traduction de la pub K9Clean (EN) | Images communes |
+|---|---|---|
+| n° 1 (1769808597629515, depuis le 05/06) | n° 5 (1489789596117970) | 53 % (animation refaite avec le pot Bebysh) |
+| n° 9 (4685510805016918, depuis le 08/08) | n° 8 (2025569754826776) | 60 % (mêmes images, sous-titres traduits) |
+
+![Bebysh 1 / K9Clean 5](images/bebysh01_traduit_k9clean05.jpg)
+![Bebysh 9 / K9Clean 8](images/bebysh09_traduit_k9clean08.jpg)
+
+Les 19 autres pubs Bebysh ne ressemblent à aucune de ces 9 pubs K9Clean : soit Bebysh les a
+créées, soit elles viennent de pubs K9Clean plus anciennes ou arrêtées (pas vérifié).
+
 ## Comment elles ont été choisies
 
 - Vendeurs européens de la poudre « dissolvant de poils » déjà trouvés (Bebysh, APWAL, Vyda,
@@ -39,7 +73,7 @@ Signaux de performance utilisés : pub encore active, ancienneté (jours de diff
 
 ## Ce que la recherche a consommé
 
-- **SerpApi : 0 recherche de plus** (données Meta déjà récupérées le 09/11). Il en reste **186** sur 250.
+- **SerpApi : 0 recherche de plus** (données Meta déjà récupérées les 08 et 09/11). Il en reste **186** sur 250.
 - **Trendtrack : rien** (pas de crédit jusqu'au 23/11).
 
 ## Limites à garder en tête
@@ -52,4 +86,6 @@ Signaux de performance utilisés : pub encore active, ancienneté (jours de diff
 - La date de début est le **début de diffusion de cette pub** : la vidéo a pu exister avant ailleurs.
 - « Active depuis longtemps » est un **bon indice** de rentabilité, pas une preuve.
 - Ces pubs sont **déjà en français** : ce sont celles d'un concurrent direct (Bebysh).
+- « Traduction » repose sur une comparaison d'images automatique, vérifiée à l'œil sur les 2 paires.
+- Les images `images/` sont dans un **dépôt public** : tout le monde peut les voir.
 
