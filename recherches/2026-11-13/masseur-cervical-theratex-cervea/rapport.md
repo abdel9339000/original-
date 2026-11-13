@@ -60,6 +60,36 @@ Les images de `images/` sont dans un **dépôt public** : tout le monde peut les
 - **Format qui monte** : le nerf ou le nœud qui **parle** (« Je suis le nerf de votre cou »). DoctinoLab a lancé 2 pubs de ce type
   il y a 9 jours, déjà à 280 000 et 220 000 vues.
 
+## Ce que les 28 pubs gagnantes ont en commun (analyse du texte parlé)
+
+**1. Une accroche qui contredit ce que le client croit (3 premières secondes).** 4 types seulement :
+- « **Ce n'est pas ce que vous croyez** » : « Ce nœud n'est pas un problème musculaire », « Ce n'était jamais une migraine »,
+  « La plupart des médecins passent à côté » (14 pubs sur 28 accusent les médecins de se tromper).
+- « **Arrêtez de…** » : « Arrêtez de masser ce nœud entre vos omoplates ».
+- **Le personnage qui parle** : « Je suis le nerf de votre cou », « Ich bin für das Kribbeln in deinem Arm verantwortlich » (4 pubs).
+- **La démonstration directe** : « Voilà ce qui arrive quand on appuie sur le bouton et qu'on s'allonge 15 minutes » (4 pubs).
+
+**2. Toujours le même déroulé** (pubs d'explication) :
+1. les signes qu'on reconnaît (brûlure entre les omoplates, pression à l'arrière du crâne, fourmillements) ;
+2. « on vous a dit que c'était un muscle / le stress » ;
+3. **pourquoi rien n'a marché** : massage, bouillotte, pistolet, cachets (27 pubs sur 28) ;
+4. l'explication avec des **images d'anatomie** (le nerf écrasé par un disque ou par les muscles) ;
+5. ce que font les kinés : **étirement à 39°, chaleur à 42°, vibrations** (39° dans 23 pubs, 42° dans 21) ;
+6. le **prix des séances** (80 à 120 €, 2 à 3 fois par semaine) (15 pubs) ;
+7. l'appareil qui fait les 3 en **15 minutes par jour** (28 pubs sur 28) ;
+8. ce qui change **semaine 1, semaine 2, après 30 jours** (16 pubs) ;
+9. la **garantie** (24 pubs) et le **stock limité** (20 pubs) ;
+10. « si le lien est encore actif, c'est le moment ».
+
+**3. Le produit arrive tard.** Dans les pubs d'explication, il n'est nommé qu'aux **trois quarts de la vidéo** (73 % en médiane).
+Seules les démonstrations le montrent dès la 1re seconde.
+
+**4. Des vidéos longues.** **2 min 52 en moyenne** (de 1 min 40 à 4 min 51). Aucune pub courte ne fait partie des gagnantes.
+
+**5. Ce que chaque concurrent fait le mieux :**
+- **Lefaya** : l'angle **« ce n'est pas une migraine »** (10 pubs sur 21, dont la meilleure à 10,4 M de vues).
+- **DoctinoLab** : l'angle **« le nœud entre les omoplates, c'est un nerf »** (5 pubs sur 7, dont la meilleure à 1,8 M de vues).
+
 ## Les 7 pubs de DoctinoLab (France) — priorité
 
 | N° fichier | Angle | Format | Durée | Vues | Depuis | € / jour (7 j) | Vient de | Pub Meta |
@@ -102,7 +132,7 @@ Les images de `images/` sont dans un **dépôt public** : tout le monde peut les
 
 ## Ce que la recherche a consommé
 
-- **Trendtrack : 150 crédits** (5 recherches). Il en restait 162 069 avant.
+- **Trendtrack : environ 900 crédits** (5 recherches pour les gagnantes, puis la liste complète des 330 pubs vidéo du produit pour vérifier qu'aucune autre ne respecte les critères). Il en reste environ 188 000.
 - **SerpApi : 0.** Transcription et comparaison des vidéos : gratuites (outils sur le serveur).
 
 ## Limites
