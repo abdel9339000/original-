@@ -10,10 +10,32 @@
 ## En bref
 
 - **28 pubs passent les critères** : **7 de DoctinoLab** (toutes actives) et **21 de Lefaya**. Toutes sont des vidéos **longues** (1 min 40 à 4 min 50).
-- **DoctinoLab a traduit les pubs de Lefaya** et refait les images. Preuves dans ses propres vidéos : « plus de 106 400 **Allemands**
+- **DoctinoLab a traduit les pubs de Lefaya** : 2 vidéos sont les mêmes (juste traduites), 5 ont été remontées avec d'autres images. Preuves dans ses propres vidéos : « plus de 106 400 **Allemands**
   utilisent déjà Cervea » (pub 1726414191754664) et « un groupe de kinés et d'ingénieurs **allemands** » (pub 1801338641065285).
 - **DoctinoLab dépense beaucoup en ce moment** : sa meilleure pub (1,8 M de vues en 25 jours) est à environ **890 €/jour** cette semaine.
 - Lefaya : ses 21 pubs ne sont que **10 vidéos** différentes (une même vidéo tourne sous 7 pubs). Sa meilleure : **10,4 M de vues**.
+
+## Qu'est-ce que DoctinoLab a copié ? (vérifié à l'œil, image par image)
+
+| Élément | Copié de Lefaya ? | Détail |
+|---|---|---|
+| **Textes des pubs** | **Oui, tous** | 2 traduits mot pour mot (n° 15, n° 11 : « Allemands » oublié), les 5 autres reprennent les mêmes histoires, chiffres et phrases. |
+| **Photos du site** | **Oui, refaites à l'identique** | Mêmes mises en page et mêmes chiffres (96 %, 92 %, 89 %, 87 %), même tableau « VS Alternatives », « Wie beim Physiotherapeut » → « Comme chez le kiné », « Expertenmeinung » → « Témoignage d'experte », même photo de chaleur à 42 °C. Regénérées par IA (fichiers « hf_20261019… »). En plus, à lui : « Un nœud entre les omoplates ? », « Semaine après semaine », programme 90 jours, 3 cadeaux. |
+| **Vidéo n° 15** (586 000 vues) | **Oui : la même vidéo** | Mêmes images que Lefaya n° 02, voix et sous-titres traduits. |
+| **Vidéo n° 11** (737 000 vues) | **Oui : la même vidéo** | Mêmes images que Lefaya n° 03, 1 ou 2 plans changés, « 100 Tage » → « 30 jours ». |
+| **Vidéo n° 06** (1,8 M de vues) | Texte oui, images **non** | Nouveau montage (vraies personnes, disque en 3D) sur le texte de Lefaya n° 02. |
+| **Vidéo n° 26** (251 000 vues) | Idée oui, images **non** | Nouveau montage (bâtiment « DoctinoLab », médecin, témoignages) sur l'angle migraine de Lefaya n° 01. |
+| **Vidéos n° 25 et 27** (280 000 et 223 000 vues) | Idée oui, images **non** | Nouveaux dessins animés : le nœud et le nerf qui parlent (idée de Lefaya n° 10 et n° 16). |
+| **Vidéo n° 28** (144 000 vues) | Idée oui, images **non** | Nouveau montage (vraies personnes + anatomie) sur l'idée de Lefaya n° 16. |
+
+**Correction :** la comparaison automatique d'images n'avait pas vu que les vidéos n° 15 et n° 11 sont les mêmes que celles de
+Lefaya, car les sous-titres (au milieu de l'image) changent avec la langue. Vérifié à l'œil sur les images ci-dessous.
+
+![Photos du site](images/photos_site_lefaya_vs_doctinolab.jpg)
+![Vidéos 1](images/videos_doctinolab_vs_lefaya_1.jpg)
+![Vidéos 2](images/videos_doctinolab_vs_lefaya_2.jpg)
+
+Les images de `images/` sont dans un **dépôt public** : tout le monde peut les voir.
 
 ## Par angle
 
