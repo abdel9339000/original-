@@ -72,8 +72,15 @@ Artuvate (ces textes n'existent pas chez Lefaya).
 
 ![Artuvate (lignes 1 et 3) contre DoctinoLab 25 et 27 (lignes 2 et 4)](images/artuvate_vs_doctinolab_25_27.jpg)
 
-Limites : je n'ai pu lire que 34 des 6 778 pubs d'Artuvate (le quota Trendtrack de ce compte s'est épuisé avant les 20 plus
-vues) ; les sources exactes des n° 26 et 28 sont peut-être parmi elles.
+Complément (bibliothèque Meta, 2 recherches SerpApi) : les 34 pubs actives les plus vues d'Artuvate (produit « PhysioRest »)
+ont été transcrites. Elles confirment :
+- n° 27 ← Artuvate « I'm the nerve in your neck. That knot between your shoulder blades is where you feel me. It isn't where I am » (7 octobre, 5 versions) ;
+- n° 06 / Lefaya 02 ← Artuvate « That knot between your shoulder blades is not a muscle problem… referred nerve pain » (2 août, 2e pub la plus vue) ;
+- **Lefaya 08** (« 70 % des maux de tête… pris pour des migraines ») ← Artuvate « Headaches that start at the base of your skull get misdiagnosed as migraines 70% of the time » (9 août) ;
+- les « Nous vous devons des excuses… nous avons menti » de Serena (FR) et SereaLab (IT) ← Artuvate « We apologize… because we lied » (5 août).
+
+Limites : 68 pubs Artuvate lues sur 6 778 (le quota Trendtrack de cette connexion est épuisé ; l'espace a encore des crédits,
+mais la part « membre » de cette connexion est à zéro). Les sources exactes des n° 26 et 28 n'ont pas été retrouvées.
 
 ## Les 53 nouvelles vidéos DoctinoLab (pas encore assez de vues pour tes critères)
 
@@ -107,4 +114,4 @@ Nouveaux formats à lui (24) :
 
 ## Consommation
 
-Trendtrack : environ 410 crédits (il en reste 88 229). SerpApi : 7 recherches (il en reste 168 sur 250).
+Trendtrack : environ 410 crédits (il en reste 88 229). SerpApi : 9 recherches (il en reste 165 sur 250).
