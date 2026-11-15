@@ -25,7 +25,13 @@ Florelya (ses pubs actives vendent des produits pour chiens), SOFELA, Sereva, Fo
 **Pubs actives, mais pour un AUTRE appareil (coussin pour le bas du dos, plus grand)** : Serena (my-serena.com,
 sciatique et sténose lombaire, jusqu'à 1 M de vues) et Wirbelfrei (wirbelfrei.de). Leur coussin nuque n'a aucune pub active.
 
-À noter : la boutique **Kovalya** (kovalya.com) utilise la même page « Cervéa » que DoctinoLab, mais pour le **Canada** (hors Europe).
+**DoctinoLab en détail** : le site marche toujours (fiche Cervéa mise à jour le 15 novembre), mais sa page Facebook
+« Ouzosan ウーゾさん » n'a plus aucune pub en ligne : ses 301 pubs ont été vues pour la dernière fois le 12 novembre
+(5,1 M de vues sur les 30 derniers jours). Le 13 novembre, Trendtrack en voyait encore 107 actives. On ne sait pas pourquoi
+tout s'est arrêté (pause, compte bloqué, changement de page…).
+
+À noter : la boutique **Kovalya** (kovalya.com, adresse en Belgique) vend la même fiche « Cervéa » (même nom, même lien)
+depuis le 9 novembre, à 99,90 $ CA, avec des pubs pour le **Canada** (hors Europe). Lien avec DoctinoLab possible, pas prouvé.
 
 Limites de cette mise à jour : la dépense est une estimation (9 € pour 1 000 vues) ; « active » est le statut vu par
 Trendtrack ; Qelara et Elitary sont comptés sur tout le site (leurs pubs vues mènent toutes au coussin ou à ses articles).
