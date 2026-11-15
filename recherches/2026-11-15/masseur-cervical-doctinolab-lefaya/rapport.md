@@ -1,7 +1,7 @@
 # DoctinoLab (FR) contre Lefaya (DE) : mise à jour du 15 novembre
 
 Produit : coussin de massage cervical 3-en-1 (Cervéa chez DoctinoLab, Theratex chez Lefaya).
-Critères : plus de 400 000 vues (pub active ou arrêtée), ou plus de 70 €/jour pendant plus de 5 jours et toujours active.
+Critères : plus de 400 000 vues (pub active ou arrêtée), ou **active les 5 derniers jours de suite avec plus de 70 €/jour** (mesuré avec la moyenne des 7 derniers jours de Trendtrack : aucun outil ne donne la dépense jour par jour).
 Source : Trendtrack (toutes les vidéos des deux marques avec au moins 38 000 vues : 11 DoctinoLab, 118 Lefaya),
 plus les 55 vidéos DoctinoLab apparues depuis le 8 novembre (téléchargées et transcrites).
 
@@ -31,7 +31,7 @@ plus les 55 vidéos DoctinoLab apparues depuis le 8 novembre (téléchargées et
 | n° 27 | 294 000 en 8 jours | ≈ 350 €/jour (7 j) | A — le nerf qui parle (« Je suis le nerf de votre cou ») | Idée de Lefaya 10, dessins à lui |
 | n° 25 | 289 000 en 8 jours | ≈ 270 €/jour (7 j) | A — « Arrêtez de masser ce nœud… c'est moi » | Idée de Lefaya 16, dessins à lui |
 | n° 26 | 270 000 | ≈ 150 €/jour (7 j) | B — « les médecins confondent ça avec la migraine » | Idée de Lefaya 01, montage à lui |
-| n° 28 | 156 000 | ≈ 67 à 87 €/jour (7 j), limite | A — nœud = nerf, vraies personnes + anatomie | Idée de Lefaya 16 |
+| ~~n° 28~~ | 156 000 | ≈ 67 €/jour (7 derniers jours) : **ne passe plus** | A — nœud = nerf, vraies personnes + anatomie | — |
 
 ## Partie 3 — Les vidéos gagnantes de Lefaya que DoctinoLab n'a pas utilisées
 
@@ -52,7 +52,7 @@ En France, DoctinoLab fait parler le nerf seulement pour le nœud entre les omop
 
 ## Les 7 gagnantes de DoctinoLab : d'où elles viennent (États-Unis, Allemagne ou à lui)
 
-Toutes les 7 sont encore actives sur Meta (15 novembre). Comparaison du texte parlé et des images, vérifiée à l'œil.
+Les 7 sont encore actives sur Meta (15 novembre) ; 6 passent les critères (la n° 28 est à ≈ 67 €/jour). Comparaison du texte parlé et des images, vérifiée à l'œil.
 
 | DoctinoLab | Vues | Le texte vient de | Les images viennent de | Conclusion |
 |---|---|---|---|---|
@@ -62,9 +62,9 @@ Toutes les 7 sont encore actives sur Meta (15 novembre). Comparaison du texte pa
 | 27 | 294 000 | 🇺🇸 Artuvate, 7 octobre (« I'm the nerve in your neck ») — mot pour mot | refaites dans le même style (nerf jaune qui parle) | **texte copié des États-Unis** |
 | 25 | 289 000 | 🇺🇸 Artuvate, 26 juillet (« Stop massaging that knot… It's me, by the way ») — mot pour mot | refaites dans le même style (nœud qui parle) | **texte copié des États-Unis** |
 | 26 | 270 000 | angle migraine / base du crâne (Artuvate et Lefaya), texte exact pas trouvé | à lui (vraies personnes, médecin, anatomie) | **à lui**, idée reprise |
-| 28 | 156 000 | même texte que Nervéa (FR) ; source pas trouvée | à lui (vraies personnes + anatomie) | **à lui** pour les images ; texte probablement américain, pas prouvé |
+| ~~28~~ | 156 000 | même texte que Nervéa (FR) ; source pas trouvée | à lui | **ne passe plus les critères** (≈ 67 €/jour sur 7 jours) |
 
-**Bilan :** 3 copiées des États-Unis (06, 25, 27), 2 copiées d'Allemagne (15, 11), 2 à lui (26, 28).
+**Bilan (6 gagnantes) :** 3 copiées des États-Unis (06, 25, 27), 2 copiées d'Allemagne (15, 11), 1 à lui (26).
 Bonus : **Lefaya 16** reprend le texte et le style d'images (silhouettes bleues « hologramme ») d'Artuvate du 23 août.
 
 ![06 et 15 : Artuvate, Lefaya, DoctinoLab](images/origine_06_15_artuvate_lefaya.jpg)
