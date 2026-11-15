@@ -27,7 +27,7 @@ plus les 55 vidéos DoctinoLab apparues depuis le 8 novembre (téléchargées et
 
 | DoctinoLab | Vues | Dépense estimée | Angle | D'où vient l'idée |
 |---|---|---|---|---|
-| n° 06 | 1,93 M | ≈ 820 €/jour (7 j) | A — nœud = nerf | Texte de Lefaya 02, images à lui |
+| n° 06 | 1,93 M | ≈ 820 €/jour (7 j) | A — nœud = nerf | **Correction : texte ET images d'Artuvate (US, 2 août)**, quelques plans remplacés |
 | n° 27 | 294 000 en 8 jours | ≈ 350 €/jour (7 j) | A — le nerf qui parle (« Je suis le nerf de votre cou ») | Idée de Lefaya 10, dessins à lui |
 | n° 25 | 289 000 en 8 jours | ≈ 270 €/jour (7 j) | A — « Arrêtez de masser ce nœud… c'est moi » | Idée de Lefaya 16, dessins à lui |
 | n° 26 | 270 000 | ≈ 150 €/jour (7 j) | B — « les médecins confondent ça avec la migraine » | Idée de Lefaya 01, montage à lui |
@@ -50,6 +50,26 @@ En France, DoctinoLab fait parler le nerf seulement pour le nœud entre les omop
 
 ![Fondateur : Lefaya en haut, DoctinoLab en bas](images/fondateur_DE_haut_FR_bas.jpg)
 
+## Les 7 gagnantes de DoctinoLab : d'où elles viennent (États-Unis, Allemagne ou à lui)
+
+Toutes les 7 sont encore actives sur Meta (15 novembre). Comparaison du texte parlé et des images, vérifiée à l'œil.
+
+| DoctinoLab | Vues | Le texte vient de | Les images viennent de | Conclusion |
+|---|---|---|---|---|
+| 06 | 1,93 M | 🇺🇸 Artuvate, 2 août (« Here's something most people with a knot between their shoulder blades never find out ») — mot pour mot | 🇺🇸 **la même vidéo Artuvate** (mêmes plans), quelques plans remplacés (bâtiment « doctinolab ») | **copiée des États-Unis** |
+| 15 | 659 000 | 🇩🇪 Lefaya 02, elle-même traduite d'Artuvate (15 juillet / 2 août) | 🇩🇪 Lefaya 02 (dessins 3D à Lefaya) | **copiée d'Allemagne** (texte américain à l'origine) |
+| 11 | 793 000 | 🇩🇪 Lefaya 03 (démonstration 15 minutes) | 🇩🇪 Lefaya 03 | **copiée d'Allemagne** (pas d'original américain trouvé) |
+| 27 | 294 000 | 🇺🇸 Artuvate, 7 octobre (« I'm the nerve in your neck ») — mot pour mot | refaites dans le même style (nerf jaune qui parle) | **texte copié des États-Unis** |
+| 25 | 289 000 | 🇺🇸 Artuvate, 26 juillet (« Stop massaging that knot… It's me, by the way ») — mot pour mot | refaites dans le même style (nœud qui parle) | **texte copié des États-Unis** |
+| 26 | 270 000 | angle migraine / base du crâne (Artuvate et Lefaya), texte exact pas trouvé | à lui (vraies personnes, médecin, anatomie) | **à lui**, idée reprise |
+| 28 | 156 000 | même texte que Nervéa (FR) ; source pas trouvée | à lui (vraies personnes + anatomie) | **à lui** pour les images ; texte probablement américain, pas prouvé |
+
+**Bilan :** 3 copiées des États-Unis (06, 25, 27), 2 copiées d'Allemagne (15, 11), 2 à lui (26, 28).
+Bonus : **Lefaya 16** reprend le texte et le style d'images (silhouettes bleues « hologramme ») d'Artuvate du 23 août.
+
+![06 et 15 : Artuvate, Lefaya, DoctinoLab](images/origine_06_15_artuvate_lefaya.jpg)
+![Lefaya 16 et Artuvate 23 août ; DoctinoLab 28](images/origine_lefaya16_artuvate.jpg)
+
 ## D'où viennent les 5 vidéos « à lui » de DoctinoLab ? → surtout d'**Artuvate** (États-Unis)
 
 **Artuvate** (artuvate.co, pages Facebook « Health & Science » et « Artuvate ») est une marque américaine qui vend le même
@@ -57,7 +77,7 @@ type de coussin. Ses pubs en anglais sont plus anciennes et ont servi de modèle
 
 | DoctinoLab | Source trouvée | Ce qui est repris |
 |---|---|---|
-| 06 (1,93 M) | Artuvate « That knot between your shoulder blades isn't a muscle problem… referred nerve pain » (15 juillet 2026) — traduite aussi par Lefaya 02 (1er septembre) | texte mot pour mot ; images à lui |
+| 06 (1,93 M) | Artuvate « Here's something most people with a knot between their shoulder blades never find out » (2 août 2026) — même sujet que Lefaya 02 | texte mot pour mot ; **images de la même vidéo Artuvate** (correction) |
 | 27 (294 000) | Artuvate « I'm the nerve in your neck. Nothing you've tried on that knot… has ever reached me » (7 octobre) | texte mot pour mot ; images refaites dans le même style (nerf jaune qui parle) |
 | 25 (289 000) | Artuvate « Stop massaging that knot between your shoulder blades. It's me, by the way… rent free » (26 juillet) | texte mot pour mot ; images refaites dans le même style (nœud qui parle) |
 | 26 (270 000) | Même sujet et mêmes mots que les pubs Artuvate sur la base du crâne (« misdiagnosed as migraines », tempes, derrière l'œil, muscles sous-occipitaux) | texte exact **pas retrouvé** |
