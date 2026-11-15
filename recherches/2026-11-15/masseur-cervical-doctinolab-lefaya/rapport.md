@@ -5,13 +5,16 @@ Critères : plus de 400 000 vues (pub active ou arrêtée), ou plus de 70 €/jo
 Source : Trendtrack (toutes les vidéos des deux marques avec au moins 38 000 vues : 11 DoctinoLab, 118 Lefaya),
 plus les 55 vidéos DoctinoLab apparues depuis le 8 novembre (téléchargées et transcrites).
 
-## Ce qui a changé depuis le 13 novembre
+## Vérifié directement sur Meta (bibliothèque de pubs, 15 novembre)
 
-- **Aucune nouvelle pub gagnante.** Lefaya : les mêmes 21. DoctinoLab : 6 au lieu de 7 (la n° 28 est passée juste en
-  dessous : 156 000 vues et environ 67 €/jour sur 7 jours).
-- **DoctinoLab teste 53 nouvelles vidéos** (lancées du 8 au 10 novembre). Le 12 novembre, elles avaient toutes moins
-  de 2 300 vues : trop tôt pour savoir si elles marchent.
-- **Lefaya n° 12 (le fondateur) n'est plus « inutilisée »** : DoctinoLab l'a reprise (texte traduit, ses propres images).
+- **DoctinoLab** : 181 pubs vidéo actives (310 avec les images). Classées par Meta de la plus vue à la moins vue,
+  les **7 premières sont exactement ses 7 gagnantes** (06, 11, 15, 27, 25, 26, 28) : toutes encore actives.
+  Ses 53 nouvelles vidéos (8-10 novembre) arrivent à partir de la 27e place : aucune ne les a dépassées.
+- **Lefaya** : toutes ses gagnantes sont encore actives et en tête. Meta montre en plus des pubs très vues qui envoient
+  vers un **article** (dergesundheitsrat.de) au lieu de la boutique : **une vidéo gagnante de plus** que je n'avais pas
+  (« Ich bin der Okzipitalnerv in Ihrem Nacken », 1,33 M de vues). Les autres pubs « article » qui passent les critères
+  utilisent la même vidéo que Lefaya 01.
+- Meta ne donne pas le nombre de vues : les vues viennent de Trendtrack (DoctinoLab : chiffres du 12 novembre).
 
 ## Partie 1 — Les vidéos que DoctinoLab a prises chez Lefaya (gagnantes des deux côtés)
 
@@ -24,19 +27,26 @@ plus les 55 vidéos DoctinoLab apparues depuis le 8 novembre (téléchargées et
 
 | DoctinoLab | Vues | Dépense estimée | Angle | D'où vient l'idée |
 |---|---|---|---|---|
-| n° 06 | 1,93 M | ≈ 820 €/jour (7 j) | A — nœud = nerf | Texte de Lefaya 02, images à lui (vraies personnes, disque en 3D) |
+| n° 06 | 1,93 M | ≈ 820 €/jour (7 j) | A — nœud = nerf | Texte de Lefaya 02, images à lui |
 | n° 27 | 294 000 en 8 jours | ≈ 350 €/jour (7 j) | A — le nerf qui parle (« Je suis le nerf de votre cou ») | Idée de Lefaya 10, dessins à lui |
 | n° 25 | 289 000 en 8 jours | ≈ 270 €/jour (7 j) | A — « Arrêtez de masser ce nœud… c'est moi » | Idée de Lefaya 16, dessins à lui |
 | n° 26 | 270 000 | ≈ 150 €/jour (7 j) | B — « les médecins confondent ça avec la migraine » | Idée de Lefaya 01, montage à lui |
+| n° 28 | 156 000 | ≈ 67 à 87 €/jour (7 j), limite | A — nœud = nerf, vraies personnes + anatomie | Idée de Lefaya 16 |
 
 ## Partie 3 — Les vidéos gagnantes de Lefaya que DoctinoLab n'a pas utilisées
 
 | Lefaya | Vues | Angle | Statut |
 |---|---|---|---|
-| n° 09 | 1,12 M | F — le kiné raconte une patiente (« Sabine, 50 ans, en télétravail ») | jamais utilisée par DoctinoLab |
+| **nouvelle (article)** | 1,33 M, 67 jours, ≈ 178 €/jour | B — le nerf d'Arnold qui parle : « Je suis le nerf occipital de votre nuque, et la plupart des médecins passent à côté de moi » | jamais utilisée — [lien Meta](https://www.facebook.com/ads/library/?id=1055275153959199) |
+| n° 09 | 1,12 M | F — le kiné raconte une patiente (« Sabine, 50 ans, en télétravail ») | jamais utilisée |
 | n° 22 | 389 000 (≈ 71 €/jour) | B — le nerf qui parle : « Ce n'était jamais une migraine. C'est moi. » | jamais utilisée |
 | n° 23 | 322 000 (≈ 215 €/jour) | G — beauté : le muscle du cou (SCM) qui donne un double menton et fait vieillir | jamais utilisée |
-| ~~n° 12~~ | 731 000 | E — l'histoire du fondateur (« seul contre l'industrie de la santé ») | **reprise le 8 novembre** par DoctinoLab (« un habitant de Paris… Je m'appelle Antoine »), 265 vues le 12 novembre |
+| ~~n° 12~~ | 731 000 | E — l'histoire du fondateur (« seul contre l'industrie de la santé ») | **reprise le 8 novembre** par DoctinoLab (« un habitant de Paris… »), pas encore de résultats |
+
+**À retenir :** 2 des 4 vidéos allemandes inutilisées sont **« le nerf qui parle » sur la migraine / la base du crâne**.
+En France, DoctinoLab fait parler le nerf seulement pour le nœud entre les omoplates (n° 25 et 27).
+
+![Lefaya : le nerf occipital qui parle](images/lefaya_nerf_occipital_qui_parle.jpg)
 
 ![Fondateur : Lefaya en haut, DoctinoLab en bas](images/fondateur_DE_haut_FR_bas.jpg)
 
@@ -72,4 +82,4 @@ Nouveaux formats à lui (24) :
 
 ## Consommation
 
-Trendtrack : environ 350 crédits (il en reste environ 88 500). SerpApi : 0.
+Trendtrack : environ 410 crédits (il en reste 88 229). SerpApi : 7 recherches (il en reste 168 sur 250).
