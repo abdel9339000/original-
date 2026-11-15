@@ -19,16 +19,21 @@ Critères : plus de 400 000 vues, ou active avec plus de 70 €/jour pendant plu
 | IT | [serealab.it](https://serealab.it/products/serealab%E2%84%A2-cuscino-terapeutico-cervicale) | 51 | 838 000 vues, 137 jours ([vidéo](https://medias.trendtrack.io/facebook/video/835171a3423a83b93b26884f69369950db5dc42db2dced712be4e33d54b21b2b.mp4)) | 1 |
 | IT | [elitary.net](https://elitary.net/pages/listicle-5-reasons-hybrid) | 31 (site entier) | 48 000 vues | 0 |
 
-**Plus aucune pub active pour le coussin nuque** : DoctinoLab (doctinolab.fr), Linderis, Spinea Lab, Nacken-Ratgeber,
+**DoctinoLab : 310 pubs actives sur Meta (voir la correction plus bas).**
+
+**Aucune pub active selon Trendtrack (à revérifier sur Meta)** : Linderis, Spinea Lab, Nacken-Ratgeber,
 Florelya (ses pubs actives vendent des produits pour chiens), SOFELA, Sereva, Forma, LOOP, Fittershape, MediFree.
 
 **Pubs actives, mais pour un AUTRE appareil (coussin pour le bas du dos, plus grand)** : Serena (my-serena.com,
 sciatique et sténose lombaire, jusqu'à 1 M de vues) et Wirbelfrei (wirbelfrei.de). Leur coussin nuque n'a aucune pub active.
 
-**DoctinoLab en détail** : le site marche toujours (fiche Cervéa mise à jour le 15 novembre), mais sa page Facebook
-« Ouzosan ウーゾさん » n'a plus aucune pub en ligne : ses 301 pubs ont été vues pour la dernière fois le 12 novembre
-(5,1 M de vues sur les 30 derniers jours). Le 13 novembre, Trendtrack en voyait encore 107 actives. On ne sait pas pourquoi
-tout s'est arrêté (pause, compte bloqué, changement de page…).
+**CORRECTION — DoctinoLab est toujours actif** : la bibliothèque de pubs Meta montre **310 pubs actives** le 15 novembre
+(vérifié par l'utilisateur). C'est **Trendtrack qui n'est pas à jour** : il n'a plus revu les pubs de la page
+« Ouzosan ウーゾさん » depuis le 12 novembre et les a classées « inactives » par erreur. Sa page a eu 5,1 M de vues sur
+les 30 derniers jours (Trendtrack).
+
+**Conséquence** : la liste « plus aucune pub active » ci-dessus vient de Trendtrack et peut contenir la même erreur.
+Elle doit être revérifiée dans la bibliothèque de pubs Meta avant d'écarter un site.
 
 À noter : la boutique **Kovalya** (kovalya.com, adresse en Belgique) vend la même fiche « Cervéa » (même nom, même lien)
 depuis le 9 novembre, à 99,90 $ CA, avec des pubs pour le **Canada** (hors Europe). Lien avec DoctinoLab possible, pas prouvé.
