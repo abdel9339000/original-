@@ -50,6 +50,31 @@ En France, DoctinoLab fait parler le nerf seulement pour le nœud entre les omop
 
 ![Fondateur : Lefaya en haut, DoctinoLab en bas](images/fondateur_DE_haut_FR_bas.jpg)
 
+## D'où viennent les 5 vidéos « à lui » de DoctinoLab ? → surtout d'**Artuvate** (États-Unis)
+
+**Artuvate** (artuvate.co, pages Facebook « Health & Science » et « Artuvate ») est une marque américaine qui vend le même
+type de coussin. Ses pubs en anglais sont plus anciennes et ont servi de modèle à DoctinoLab **et à Lefaya**.
+
+| DoctinoLab | Source trouvée | Ce qui est repris |
+|---|---|---|
+| 06 (1,93 M) | Artuvate « That knot between your shoulder blades isn't a muscle problem… referred nerve pain » (15 juillet 2026) — traduite aussi par Lefaya 02 (1er septembre) | texte mot pour mot ; images à lui |
+| 27 (294 000) | Artuvate « I'm the nerve in your neck. Nothing you've tried on that knot… has ever reached me » (7 octobre) | texte mot pour mot ; images refaites dans le même style (nerf jaune qui parle) |
+| 25 (289 000) | Artuvate « Stop massaging that knot between your shoulder blades. It's me, by the way… rent free » (26 juillet) | texte mot pour mot ; images refaites dans le même style (nœud qui parle) |
+| 26 (270 000) | Même sujet et mêmes mots que les pubs Artuvate sur la base du crâne (« misdiagnosed as migraines », tempes, derrière l'œil, muscles sous-occipitaux) | texte exact **pas retrouvé** |
+| 28 (156 000) | Même texte que Nervéa (FR), qui dit traduire « notre boutique US » | source anglaise probable, **pas retrouvée** |
+
+**Lefaya copie aussi Artuvate** : Lefaya 02 ← Artuvate 15 juillet ; Lefaya 16 ← Artuvate 23 août (« This is what happens to a
+knot in your shoulder blade… ») ; Lefaya 22 « Es war nie eine Migräne. Ich bin es » ← Artuvate 22 juillet (« Alright. I've had it.
+I've been trying to talk to you for two years… you pop a migraine pill »).
+
+**La chaîne :** Artuvate (US) → Lefaya (DE) → DoctinoLab (FR). Pour les n° 25 et 27, DoctinoLab est allé **directement** chez
+Artuvate (ces textes n'existent pas chez Lefaya).
+
+![Artuvate (lignes 1 et 3) contre DoctinoLab 25 et 27 (lignes 2 et 4)](images/artuvate_vs_doctinolab_25_27.jpg)
+
+Limites : je n'ai pu lire que 34 des 6 778 pubs d'Artuvate (le quota Trendtrack de ce compte s'est épuisé avant les 20 plus
+vues) ; les sources exactes des n° 26 et 28 sont peut-être parmi elles.
+
 ## Les 53 nouvelles vidéos DoctinoLab (pas encore assez de vues pour tes critères)
 
 Reprises de Lefaya (29) :
