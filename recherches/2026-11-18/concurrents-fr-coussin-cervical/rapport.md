@@ -23,6 +23,27 @@ masser ce nœud entre vos omoplates », le témoignage « Martin G. »), copiée
 
 ![Images des pubs des concurrents](images/images_pubs_concurrents.jpg)
 
+
+## Recherche élargie (16 recherches de plus)
+
+**Nouveaux vendeurs du même coussin (pubs actives) :**
+
+| Concurrent | Boutique | Depuis | Ce qu'on voit |
+|---|---|---|---|
+| **Eclinea** (« Theratex masseur 3 en 1 » !) | https://eclinea.com/products/theratex-masseur3en1 | 24 octobre | reprend le nom « Theratex » de Lefaya et ses images « hologramme » |
+| **Kelis** | https://kelislaboutique.com/products/appareil-de-massage-cervicale-3-en-1 | 15 novembre | **mêmes images que DoctinoLab** (n° 06) |
+| **NTPCustom** (« NTPNeck ») | https://ntpcustom.com/products/ntpneck-coussin-cervical | 16 novembre | « coussin cervical 3-en-1, chaleur, vibrations » (image non vérifiée) |
+| **Velours Blanc** | https://veloursblanc.fr/ | 14 novembre | coussin chauffant qui ressemble au même (probable) |
+
+Nombre exact de pubs actives de ces 4 : non compté (il faut 1 recherche par boutique).
+
+**Anciennes boutiques revérifiées :** SOFELA, Lavyra, CerviDos, Cerymia, Calmeo, Soleria et Sereva n'ont **plus aucune pub active** ;
+Florelya fait de la pub uniquement pour des produits pour chiens.
+
+**Écartés :** Siaasoo (masseur en U autour du cou, autre produit), Chillow, Koanna, Beurer, Miravita, Cervizen, Cellsius, Soya, Somnilys.
+
+![Images des nouveaux](images/images_pubs_nouveaux.jpg)
+
 ## Limites
 
 - Meta (par SerpApi) ne donne **ni les vues ni la dépense** : impossible de dire ici quelles pubs passent les critères
@@ -33,4 +54,4 @@ masser ce nœud entre vos omoplates », le témoignage « Martin G. »), copiée
 
 ## Consommation
 
-SerpApi : 13 recherches (6 par mots-clés + 7 par page). Il en reste 144 sur 250. Trendtrack : 0 (bloqué).
+SerpApi : 29 recherches (14 par mots-clés + 15 par page). Il en reste 128 sur 250. Trendtrack : 0 (bloqué).
